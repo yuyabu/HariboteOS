@@ -1,4 +1,4 @@
-#Haribote OSのバックアップ
+# Haribote OSのバックアップ
 
 qemuとGDBを使ってhariboteOSの起動~アプリケーション実行までの動作の順を調査・整理するための試行錯誤のリポジトリです。
 
