@@ -1,0 +1,2861 @@
+   0xffffe05b:	cmp    WORD PTR cs:[esi],0xff88
+   0xffffe060:	popa
+   0xffffe061:	add    BYTE PTR [edi],cl
+   0xffffe063:	test   DWORD PTR [ebx-0x10],edi
+   0xffffe066:	xor    edx,edx
+   0xffffe068:	mov    ss,edx
+   0xffffe06a:	mov    sp,0x7000
+   0xffffe06e:	add    BYTE PTR [eax],al
+   0xffffe070:	mov    dx,0x1baf
+   0xffffe074:	verw   cx
+   0xffffe077:	call   0x6655476a
+   0xffffe07c:	push   edi
+   0xffffe07d:	push   si
+   0xffffe07f:	push   bx
+   0xffffe081:	sub    sp,0x2c
+   0xffffe085:	mov    si,ax
+   0xffffe088:	mov    di,WORD PTR [bx+si+0x4]
+   0xffffe08d:	mov    cx,0x22
+   0xffffe091:	add    BYTE PTR [eax],al
+   0xffffe093:	xor    dx,dx
+   0xffffe096:	lea    ax,[si+0x24]
+   0xffffe09b:	or     ah,BYTE PTR [esi-0x18]
+   0xffffe09e:	dec    ebp
+   0xffffe09f:	add    eax,DWORD PTR [eax]
+   0xffffe0a1:	add    BYTE PTR [edi-0x3a],ah
+   0xffffe0a4:	inc    esp
+   0xffffe0a5:	and    al,0xa
+   0xffffe0a7:	add    DWORD PTR [edi-0x39],esp
+   0xffffe0aa:	inc    esp
+   0xffffe0ab:	and    al,0xc
+   0xffffe0ad:	lods   eax,DWORD PTR ds:[esi]
+   0xffffe0ae:	fisubr WORD PTR [esi]
+   0xffffe0b0:	mov    ax,WORD PTR [bx+0x38]
+   0xffffe0b6:	icebp
+   0xffffe0b7:	jmp    DWORD PTR [edi-0x78]
+   0xffffe0ba:	inc    esp
+   0xffffe0bb:	and    al,0x13
+   0xffffe0bd:	mov    cx,0x10
+   0xffffe0c1:	add    BYTE PTR [eax],al
+   0xffffe0c3:	lea    dx,[si+0x24]
+   0xffffe0c8:	sbb    ah,BYTE PTR [esi-0x77]
+   0xffffe0cb:	lock callw 0x6cec
+   0xffffe0d0:	(bad)
+   0xffffe0d1:	jmp    DWORD PTR [esi-0x77]
+   0xffffe0d4:	lds    esp,FWORD PTR [esi-0x7b]
+   0xffffe0d7:	sar    BYTE PTR [ecx+0x13],0x67
+   0xffffe0db:	mov    al,BYTE PTR [esi+0x8]
+   0xffffe0de:	add    sp,0x2c
+   0xffffe0e2:	pop    bx
+   0xffffe0e4:	pop    si
+   0xffffe0e6:	pop    di
+   0xffffe0e8:	pop    bp
+   0xffffe0ea:	jmp    0xd18c6d64
+   0xffffe0ef:	mov    ax,WORD PTR cs:[bx+0x28]
+   0xffffe0f6:	icebp
+   0xffffe0f7:	jmp    DWORD PTR [esi+0xf]
+   0xffffe0fa:	mov    bh,0xc9
+   0xffffe0fc:	shl    cx,0x4
+   0xffffe100:	lea    bx,[si+0x24]
+   0xffffe105:	or     ah,BYTE PTR [esi+0x1]
+   0xffffe108:	fldenv [edi+0x66]
+   0xffffe10b:	mov    DWORD PTR [esp],0x20
+   0xffffe112:	xor    dx,dx
+   0xffffe115:	callw  0x9cef
+   0xffffe119:	(bad)
+   0xffffe11a:	jmp    DWORD PTR [esi-0x7b]
+   0xffffe11d:	shl    BYTE PTR [ebx+ecx*1+0x67],0x66
+   0xffffe122:	mov    DWORD PTR [esp],0xd703
+   0xffffe129:	jmp    0xffffe185
+   0xffffe12b:	mov    cx,0x22
+   0xffffe12f:	add    BYTE PTR [eax],al
+   0xffffe131:	mov    dx,0xff
+   0xffffe135:	add    BYTE PTR [eax],al
+   0xffffe137:	lea    ax,[si+0x24]
+   0xffffe13c:	or     ah,BYTE PTR [esi-0x18]
+   0xffffe13f:	lods   al,BYTE PTR ds:[esi]
+   0xffffe140:	add    al,BYTE PTR [eax]
+   0xffffe142:	add    BYTE PTR [ecx+edx*8-0x749998d2],cl
+   0xffffe149:	xchg   DWORD PTR [eax+eax*1],ebp
+   0xffffe14c:	icebp
+   0xffffe14d:	jmp    DWORD PTR [esi+0xf]
+   0xffffe150:	mov    bh,0xc9
+   0xffffe152:	shl    cx,0x4
+   0xffffe156:	lea    bx,[si+0x24]
+   0xffffe15b:	or     ah,BYTE PTR [esi+0x1]
+   0xffffe15e:	fldenv [edi+0x66]
+   0xffffe161:	mov    DWORD PTR [esp],0x22
+   0xffffe168:	mov    dx,0x80
+   0xffffe16c:	add    BYTE PTR [eax],al
+   0xffffe16e:	callw  0x9cef
+   0xffffe172:	(bad)
+   0xffffe173:	jmp    DWORD PTR [esi-0x77]
+   0xffffe176:	ret
+   0xffffe177:	test   ax,ax
+   0xffffe17a:	je     0xffffe18e
+   0xffffe17c:	mov    WORD PTR [si],0x1a24
+   0xffffe182:	xlat   BYTE PTR ds:[ebx]
+   0xffffe183:	add    BYTE PTR [eax],al
+   0xffffe185:	callw  0x756c
+   0xffffe189:	(bad)
+   0xffffe18a:	(bad)
+   0xffffe18b:	jmp    0x6666e29f
+   0xffffe190:	movzx  eax,BYTE PTR [esp+0xa]
+   0xffffe195:	cmp    al,0x6
+   0xffffe197:	je     0xffffe1b5
+   0xffffe199:	cmp    al,0x7
+   0xffffe19b:	je     0xffffe1ed
+   0xffffe19d:	cmp    al,0x3
+   0xffffe19f:	je     0x6666e297
+   0xffffe1a5:	mov    DWORD PTR [esp+0x4],eax
+   0xffffe1a9:	mov    WORD PTR [si],0x5924
+   0xffffe1af:	xlat   BYTE PTR ds:[ebx]
+   0xffffe1b0:	add    BYTE PTR [eax],al
+   0xffffe1b2:	jmp    0x672de28f
+   0xffffe1b7:	mov    ax,WORD PTR [edi-0xeffd0]
+   0xffffe1be:	movzx  dx,WORD PTR [bp+0xa]
+   0xffffe1c4:	imul   dx,bp
+   0xffffe1c8:	mov    WORD PTR [si],dx
+   0xffffe1cc:	and    al,0x67
+   0xffffe1ce:	mov    cx,WORD PTR [esi]
+   0xffffe1d1:	mov    dx,0x80
+   0xffffe1d5:	add    BYTE PTR [eax],al
+   0xffffe1d7:	callw  0x9cef
+   0xffffe1db:	(bad)
+   0xffffe1dc:	jmp    DWORD PTR [esi-0x7b]
+   0xffffe1df:	shl    BYTE PTR [ecx+eax*2+0x67],0x66
+   0xffffe1e4:	mov    DWORD PTR [esp],0xd730
+   0xffffe1eb:	jmp    0xffffe185
+   0xffffe1ed:	mov    ax,WORD PTR cs:[bx+0x34]
+   0xffffe1f4:	icebp
+   0xffffe1f5:	jmp    DWORD PTR [edi+0x66]
+   0xffffe1f8:	movzx  edx,WORD PTR [esi+0xa]
+   0xffffe1fc:	imul   dx,bp
+   0xffffe200:	mov    WORD PTR [si],dx
+   0xffffe204:	and    al,0x67
+   0xffffe206:	mov    cx,WORD PTR [esi]
+   0xffffe209:	xor    dx,dx
+   0xffffe20c:	callw  0x9cef
+   0xffffe210:	(bad)
+   0xffffe211:	jmp    DWORD PTR [esi-0x7b]
+   0xffffe214:	shl    BYTE PTR [esp+ecx*1+0x67],0x66
+   0xffffe219:	mov    DWORD PTR [esp],0xd744
+   0xffffe220:	jmp    0xb966e187
+   0xffffe225:	and    al,BYTE PTR [eax]
+   0xffffe227:	add    BYTE PTR [eax],al
+   0xffffe229:	mov    dx,0xff
+   0xffffe22d:	add    BYTE PTR [eax],al
+   0xffffe22f:	lea    ax,[si+0x24]
+   0xffffe234:	or     ah,BYTE PTR [esi-0x18]
+   0xffffe237:	mov    ah,0x1
+   0xffffe239:	add    BYTE PTR [eax],al
+   0xffffe23b:	mov    ecx,ss
+   0xffffe23d:	mov    ax,WORD PTR cs:[bx+0x2c]
+   0xffffe244:	icebp
+   0xffffe245:	jmp    DWORD PTR [esi+0xf]
+   0xffffe248:	mov    bh,0xc9
+   0xffffe24a:	shl    cx,0x4
+   0xffffe24e:	lea    di,[si+0x24]
+   0xffffe253:	or     ah,BYTE PTR [esi+0x1]
+   0xffffe256:	stc
+   0xffffe257:	mov    WORD PTR [si],0x2224
+   0xffffe25d:	add    BYTE PTR [eax],al
+   0xffffe25f:	add    BYTE PTR [esi-0x46],ah
+   0xffffe262:	add    BYTE PTR [eax],0x0
+   0xffffe265:	add    BYTE PTR [esi-0x18],ah
+   0xffffe268:	test   DWORD PTR [edx-0x7a990001],edi
+   0xffffe26e:	ror    BYTE PTR [edi],0x85
+   0xffffe271:	or     edi,edi
+   0xffffe273:	movzx  ax,BYTE PTR [si+0x24]
+   0xffffe279:	or     bh,BYTE PTR [ebx+eax*1]
+   0xffffe27c:	je     0xffffe295
+   0xffffe27e:	mov    WORD PTR [si+0x24],ax
+   0xffffe283:	add    al,0x67
+   0xffffe285:	mov    WORD PTR [esp],0xd776
+   0xffffe28b:	add    BYTE PTR [eax],al
+   0xffffe28d:	callw  0x756c
+   0xffffe291:	(bad)
+   0xffffe292:	(bad)
+   0xffffe293:	jmp    0xffffe29d
+   0xffffe295:	cmp    BYTE PTR [si+0x24],0x10
+   0xffffe29a:	add    BYTE PTR [esi+eax*1+0x66],dh
+   0xffffe29e:	mov    ebx,0xc
+   0xffffe2a3:	mov    ax,bx
+   0xffffe2a6:	add    sp,0x2c
+   0xffffe2aa:	pop    bx
+   0xffffe2ac:	pop    si
+   0xffffe2ae:	pop    di
+   0xffffe2b0:	pop    bp
+   0xffffe2b2:	retw
+   0xffffe2b4:	mov    BYTE PTR [bx+si+0x1d],0x0
+   0xffffe2b9:	and    DWORD PTR [bx+si+0x24],0xfffffffe
+   0xffffe2be:	retw
+   0xffffe2c0:	int    0x19
+   0xffffe2c2:	retf
+   0xffffe2c3:	cli
+   0xffffe2c4:	cld
+   0xffffe2c5:	push   ax
+   0xffffe2c7:	push   cx
+   0xffffe2c9:	push   dx
+   0xffffe2cb:	push   es
+   0xffffe2cc:	push   ds
+   0xffffe2cd:	mov    eax,ss
+   0xffffe2cf:	mov    ds,eax
+   0xffffe2d1:	push   sp
+   0xffffe2d3:	movzx  sp,sp
+   0xffffe2d7:	callw  0x7a48
+   0xffffe2db:	(bad)
+   0xffffe2dc:	jmp    DWORD PTR [esi+0x5c]
+   0xffffe2df:	pop    ds
+   0xffffe2e0:	pop    es
+   0xffffe2e1:	pop    dx
+   0xffffe2e3:	pop    cx
+   0xffffe2e5:	pop    ax
+   0xffffe2e7:	iret
+   0xffffe2e8:	push   bp
+   0xffffe2ea:	push   di
+   0xffffe2ec:	push   si
+   0xffffe2ee:	push   bx
+   0xffffe2f0:	mov    di,dx
+   0xffffe2f3:	mov    dx,WORD PTR cs:[bx+si+0x24]
+   0xffffe2fa:	icebp
+   0xffffe2fb:	jmp    FWORD PTR [esi]
+   0xffffe2fd:	mov    bl,BYTE PTR [bx+si+0x28]
+   0xffffe302:	icebp
+   0xffffe303:	jmp    FWORD PTR [esi]
+   0xffffe305:	mov    esi,DWORD PTR [bp+si+0x0]
+   0xffffe30a:	icebp
+   0xffffe30b:	jmp    DWORD PTR [esi+0xf]
+   0xffffe30e:	mov    bh,0xee
+   0xffffe310:	mov    ax,bp
+   0xffffe313:	callw  0xa772
+   0xffffe317:	(bad)
+   0xffffe318:	jmp    DWORD PTR [esi-0x7b]
+   0xffffe31b:	ror    BYTE PTR [edi],0x88
+   0xffffe31e:	lds    eax,FWORD PTR [eax]
+   0xffffe320:	mov    al,BYTE PTR [bx+0x5]
+   0xffffe324:	and    ax,0x4f
+   0xffffe328:	cmp    bl,0x1
+   0xffffe32b:	sbb    cx,cx
+   0xffffe32e:	and    cx,0xfff0
+   0xffffe332:	sub    cx,0x50
+   0xffffe336:	or     cx,ax
+   0xffffe339:	lea    dx,[bp+0x6]
+   0xffffe33e:	in     al,dx
+   0xffffe33f:	mov    bl,al
+   0xffffe341:	mov    al,cl
+   0xffffe343:	out    dx,al
+   0xffffe344:	xor    bx,cx
+   0xffffe347:	and    bl,0x10
+   0xffffe34a:	jne    0xffffe393
+   0xffffe34c:	mov    cl,BYTE PTR [bx+0x6]
+   0xffffe350:	mov    ax,cx
+   0xffffe353:	and    ax,0xee
+   0xffffe357:	add    BYTE PTR [eax],al
+   0xffffe359:	cmp    ax,0x24
+   0xffffe35d:	jne    0xffffe3a9
+   0xffffe35f:	mov    al,BYTE PTR [bx+0x7]
+   0xffffe363:	lea    dx,[bp+0x1]
+   0xffffe368:	out    dx,al
+   0xffffe369:	mov    al,BYTE PTR [bx+0x8]
+   0xffffe36d:	lea    dx,[bp+0x2]
+   0xffffe372:	out    dx,al
+   0xffffe373:	mov    al,BYTE PTR [bx+0x9]
+   0xffffe377:	lea    dx,[bp+0x3]
+   0xffffe37c:	out    dx,al
+   0xffffe37d:	mov    al,BYTE PTR [bx+0xa]
+   0xffffe381:	lea    dx,[bp+0x4]
+   0xffffe386:	out    dx,al
+   0xffffe387:	mov    al,BYTE PTR [bx+0xb]
+   0xffffe38b:	lea    dx,[bp+0x5]
+   0xffffe390:	out    dx,al
+   0xffffe391:	jmp    0xffffe3a9
+   0xffffe393:	callw  0xfeac
+   0xffffe397:	add    BYTE PTR [eax],al
+   0xffffe399:	mov    ax,bp
+   0xffffe39c:	callw  0xa772
+   0xffffe3a0:	(bad)
+   0xffffe3a1:	jmp    DWORD PTR [esi-0x7b]
+   0xffffe3a4:	sar    BYTE PTR [ecx-0x5b],0xeb
+   0xffffe3a8:	cmp    al,0x67
+   0xffffe3aa:	mov    al,BYTE PTR [edi]
+   0xffffe3ac:	lea    dx,[bp+0x1]
+   0xffffe3b1:	out    dx,al
+   0xffffe3b2:	mov    al,BYTE PTR [bx+0x1]
+   0xffffe3b6:	lea    dx,[bp+0x2]
+   0xffffe3bb:	out    dx,al
+   0xffffe3bc:	mov    al,BYTE PTR [bx+0x2]
+   0xffffe3c0:	lea    dx,[bp+0x3]
+   0xffffe3c5:	out    dx,al
+   0xffffe3c6:	mov    al,BYTE PTR [bx+0x3]
+   0xffffe3ca:	lea    dx,[bp+0x4]
+   0xffffe3cf:	out    dx,al
+   0xffffe3d0:	mov    al,BYTE PTR [bx+0x4]
+   0xffffe3d4:	lea    dx,[bp+0x5]
+   0xffffe3d9:	out    dx,al
+   0xffffe3da:	lea    dx,[bp+0x7]
+   0xffffe3df:	mov    al,cl
+   0xffffe3e1:	out    dx,al
+   0xffffe3e2:	xor    ax,ax
+   0xffffe3e5:	pop    bx
+   0xffffe3e7:	pop    si
+   0xffffe3e9:	pop    di
+   0xffffe3eb:	pop    bp
+   0xffffe3ed:	retw
+   0xffffe3ef:	test   cx,cx
+   0xffffe3f2:	je     0xffffe3fc
+   0xffffe3f4:	dec    cx
+   0xffffe3f6:	mov    BYTE PTR [si],dl
+   0xffffe3f9:	or     bl,ch
+   0xffffe3fb:	repz retw
+   0xffffe3fe:	jmp    0xd448
+   0xffffe403:	add    BYTE PTR [eax],al
+   0xffffe405:	add    BYTE PTR [eax],al
+   0xffffe407:	add    BYTE PTR [eax],al
+   0xffffe409:	add    BYTE PTR [eax],al
+   0xffffe40b:	add    BYTE PTR [eax],al
+   0xffffe40d:	add    BYTE PTR [eax],al
+   0xffffe40f:	add    BYTE PTR [eax],al
+   0xffffe411:	push   si
+   0xffffe413:	push   bx
+   0xffffe415:	mov    bx,ax
+   0xffffe418:	mov    al,BYTE PTR [bx+si+0x1d]
+   0xffffe41c:	cmp    al,0x4
+   0xffffe41e:	je     0x1576e575
+   0xffffe424:	cmp    al,0x1
+   0xffffe426:	je     0xffffe4a6
+   0xffffe428:	jb     0xffffe46c
+   0xffffe42a:	cmp    al,0x2
+   0xffffe42c:	je     0x33be4d9
+   0xffffe432:	je     0x54e8e520
+   0xffffe438:	add    bh,BYTE PTR [esi+eax*1]
+   0xffffe43b:	je     0x820ee614
+   0xffffe441:	ja     0xffffe444
+   0xffffe443:	cmp    al,0x7
+   0xffffe445:	je     0xbb3be669
+   0xffffe44b:	jne    0xd28be68f
+   0xffffe451:	movzx  dx,dx
+   0xffffe455:	shl    dx,0x4
+   0xffffe459:	add    dx,bx
+   0xffffe45c:	xor    cx,cx
+   0xffffe45f:	mov    ax,0x1d09
+   0xffffe463:	verr   WORD PTR [esi+0x5b]
+   0xffffe467:	pop    si
+   0xffffe469:	jmp    0xe8667aa6
+   0xffffe46e:	jl     0xffffe411
+   0xffffe470:	(bad)
+   0xffffe471:	jmp    DWORD PTR [esi-0x48]
+   0xffffe474:	inc    eax
+   0xffffe475:	add    BYTE PTR [eax],al
+   0xffffe477:	add    BYTE PTR [esi-0x7499d940],cl
+   0xffffe47d:	push   ss
+   0xffffe47e:	ins    BYTE PTR es:[edi],dx
+   0xffffe47f:	add    BYTE PTR [esi-0x77],ah
+   0xffffe482:	shl    DWORD PTR [esi-0x3f],1
+   0xffffe485:	jmp    0x4b894b9a
+   0xffffe48a:	sbb    BYTE PTR [edi-0x77],ah
+   0xffffe48d:	push   ebx
+   0xffffe48e:	adc    al,0x8e
+   0xffffe490:	shl    BYTE PTR [esi],0x8a
+   0xffffe493:	push   ss
+   0xffffe494:	jo     0xffffe496
+   0xffffe496:	mov    BYTE PTR [bp+di+0x1c],dl
+   0xffffe49a:	mov    es,eax
+   0xffffe49c:	xor    ax,ax
+   0xffffe49f:	mov    es:0xe0e90070,al
+   0xffffe4a5:	add    DWORD PTR [edi+0x66],esp
+   0xffffe4a8:	movzx  eax,WORD PTR [ebx+0x18]
+   0xffffe4ac:	shl    ax,0x10
+   0xffffe4b0:	movzx  dx,WORD PTR [bp+di+0x14]
+   0xffffe4b6:	or     ax,dx
+   0xffffe4b9:	mov    dx,0x40
+   0xffffe4bd:	add    BYTE PTR [eax],al
+   0xffffe4bf:	mov    es,edx
+   0xffffe4c1:	mov    es:0xc28e006c,ax
+   0xffffe4c8:	xor    ax,ax
+   0xffffe4cb:	mov    es:0xc6670070,al
+   0xffffe4d1:	inc    ebx
+   0xffffe4d2:	sbb    eax,0x1afe900
+   0xffffe4d7:	callw  0xfefe
+   0xffffe4db:	add    BYTE PTR [eax],al
+   0xffffe4dd:	test   ax,ax
+   0xffffe4e0:	jne    0x80afe68f
+   0xffffe4e6:	out    0x70,al
+   0xffffe4e8:	in     al,0x71
+   0xffffe4ea:	mov    BYTE PTR [bp+di+0x15],al
+   0xffffe4ee:	mov    al,0x82
+   0xffffe4f0:	out    0x70,al
+   0xffffe4f2:	in     al,0x71
+   0xffffe4f4:	mov    BYTE PTR [bp+di+0x18],al
+   0xffffe4f8:	mov    al,0x84
+   0xffffe4fa:	out    0x70,al
+   0xffffe4fc:	in     al,0x71
+   0xffffe4fe:	mov    cl,al
+   0xffffe500:	mov    BYTE PTR [bp+di+0x19],al
+   0xffffe504:	mov    al,0x8b
+   0xffffe506:	out    0x70,al
+   0xffffe508:	in     al,0x71
+   0xffffe50a:	and    ax,0x1
+   0xffffe50e:	mov    BYTE PTR [bp+di+0x14],al
+   0xffffe512:	mov    BYTE PTR [bp+di+0x1d],0x0
+   0xffffe517:	mov    BYTE PTR [bp+di+0x1c],cl
+   0xffffe51b:	jmp    0xe865e688
+   0xffffe520:	fcomp  QWORD PTR [ecx]
+   0xffffe522:	add    BYTE PTR [eax],al
+   0xffffe524:	test   ax,ax
+   0xffffe527:	je     0xffffe52f
+   0xffffe529:	callw  0xfe7c
+   0xffffe52d:	add    BYTE PTR [eax],al
+   0xffffe52f:	mov    al,0x80
+   0xffffe531:	out    0x70,al
+   0xffffe533:	mov    al,BYTE PTR [bp+di+0x15]
+   0xffffe537:	out    0x71,al
+   0xffffe539:	mov    al,0x82
+   0xffffe53b:	out    0x70,al
+   0xffffe53d:	mov    al,BYTE PTR [bp+di+0x18]
+   0xffffe541:	out    0x71,al
+   0xffffe543:	mov    al,0x84
+   0xffffe545:	out    0x70,al
+   0xffffe547:	mov    al,BYTE PTR [bp+di+0x19]
+   0xffffe54b:	out    0x71,al
+   0xffffe54d:	mov    si,0xff8b
+   0xffffe551:	(bad)
+   0xffffe552:	jmp    DWORD PTR [esi-0x77]
+   0xffffe555:	lock out 0x70,al
+   0xffffe558:	in     al,0x71
+   0xffffe55a:	mov    dl,BYTE PTR [bp+di+0x14]
+   0xffffe55e:	and    dx,0x1
+   0xffffe562:	or     dx,0x2
+   0xffffe566:	and    ax,0x60
+   0xffffe56a:	or     dx,ax
+   0xffffe56d:	mov    ax,si
+   0xffffe570:	jmp    0xc666e60e
+   0xffffe575:	inc    ebx
+   0xffffe576:	sbb    eax,0x82e86600
+   0xffffe57b:	sbb    DWORD PTR [eax],eax
+   0xffffe57d:	add    BYTE PTR [esi-0x7b],ah
+   0xffffe580:	ror    BYTE PTR [edi],0x85
+   0xffffe583:	or     BYTE PTR [ecx],al
+   0xffffe585:	mov    al,0x89
+   0xffffe587:	out    0x70,al
+   0xffffe589:	in     al,0x71
+   0xffffe58b:	mov    BYTE PTR [bp+di+0x18],al
+   0xffffe58f:	mov    al,0x88
+   0xffffe591:	out    0x70,al
+   0xffffe593:	in     al,0x71
+   0xffffe595:	mov    BYTE PTR [bp+di+0x15],al
+   0xffffe599:	mov    al,0x87
+   0xffffe59b:	out    0x70,al
+   0xffffe59d:	in     al,0x71
+   0xffffe59f:	mov    BYTE PTR [bp+di+0x14],al
+   0xffffe5a3:	mov    ax,0xdc80
+   0xffffe5a7:	add    BYTE PTR [eax],al
+   0xffffe5a9:	mov    es,eax
+   0xffffe5ab:	mov    al,es:0x8867f2d8
+   0xffffe5b1:	inc    ebx
+   0xffffe5b2:	sbb    DWORD PTR [edi-0x78],esp
+   0xffffe5b5:	inc    ebx
+   0xffffe5b6:	sbb    al,0xe9
+   0xffffe5b8:	int3
+   0xffffe5b9:	add    BYTE PTR [esi-0x18],ah
+   0xffffe5bc:	inc    eax
+   0xffffe5bd:	sbb    DWORD PTR [eax],eax
+   0xffffe5bf:	add    BYTE PTR [esi-0x7b],ah
+   0xffffe5c2:	shl    BYTE PTR [ecx+ecx*1+0x66],0xe8
+   0xffffe5c7:	mov    bl,0x18
+   0xffffe5c9:	add    BYTE PTR [eax],al
+   0xffffe5cb:	jmp    0x89afe68f
+   0xffffe5d0:	out    0x70,al
+   0xffffe5d2:	mov    al,BYTE PTR [bp+di+0x18]
+   0xffffe5d6:	out    0x71,al
+   0xffffe5d8:	mov    al,0x88
+   0xffffe5da:	out    0x70,al
+   0xffffe5dc:	mov    al,BYTE PTR [bp+di+0x15]
+   0xffffe5e0:	out    0x71,al
+   0xffffe5e2:	mov    al,0x87
+   0xffffe5e4:	out    0x70,al
+   0xffffe5e6:	mov    al,BYTE PTR [bp+di+0x14]
+   0xffffe5ea:	out    0x71,al
+   0xffffe5ec:	mov    al,BYTE PTR [bp+di+0x19]
+   0xffffe5f0:	mov    dx,0xdc80
+   0xffffe5f4:	add    BYTE PTR [eax],al
+   0xffffe5f6:	mov    es,edx
+   0xffffe5f8:	mov    es:0x8bb1f2d8,al
+   0xffffe5fe:	mov    al,cl
+   0xffffe600:	out    0x70,al
+   0xffffe602:	in     al,0x71
+   0xffffe604:	mov    dl,al
+   0xffffe606:	and    dx,0x7f
+   0xffffe60a:	mov    al,cl
+   0xffffe60c:	out    0x70,al
+   0xffffe60e:	mov    al,dl
+   0xffffe610:	jmp    0xffffe67b
+   0xffffe612:	mov    al,0x8b
+   0xffffe614:	out    0x70,al
+   0xffffe616:	in     al,0x71
+   0xffffe618:	mov    si,ax
+   0xffffe61b:	mov    DWORD PTR [bp+di+0x1c],0x20a80000
+   0xffffe623:	jne    0xffffe68d
+   0xffffe625:	callw  0xfefe
+   0xffffe629:	add    BYTE PTR [eax],al
+   0xffffe62b:	test   ax,ax
+   0xffffe62e:	je     0xffffe636
+   0xffffe630:	callw  0xfe7c
+   0xffffe634:	add    BYTE PTR [eax],al
+   0xffffe636:	mov    al,0x81
+   0xffffe638:	out    0x70,al
+   0xffffe63a:	mov    al,BYTE PTR [bp+di+0x15]
+   0xffffe63e:	out    0x71,al
+   0xffffe640:	mov    al,0x83
+   0xffffe642:	out    0x70,al
+   0xffffe644:	mov    al,BYTE PTR [bp+di+0x18]
+   0xffffe648:	out    0x71,al
+   0xffffe64a:	mov    al,0x85
+   0xffffe64c:	out    0x70,al
+   0xffffe64e:	mov    al,BYTE PTR [bp+di+0x19]
+   0xffffe652:	out    0x71,al
+   0xffffe654:	mov    al,0x8b
+   0xffffe656:	out    0x70,al
+   0xffffe658:	mov    ax,si
+   0xffffe65b:	and    ax,0x5f
+   0xffffe65f:	or     ax,0x20
+   0xffffe663:	out    0x71,al
+   0xffffe665:	jmp    0xffffe686
+   0xffffe667:	mov    cl,0x8b
+   0xffffe669:	mov    al,cl
+   0xffffe66b:	out    0x70,al
+   0xffffe66d:	in     al,0x71
+   0xffffe66f:	mov    dl,al
+   0xffffe671:	mov    al,cl
+   0xffffe673:	out    0x70,al
+   0xffffe675:	mov    al,dl
+   0xffffe677:	and    ax,0x5f
+   0xffffe67b:	out    0x71,al
+   0xffffe67d:	mov    BYTE PTR [bp+di+0x1d],0x0
+   0xffffe682:	mov    BYTE PTR [bp+di+0x1c],dl
+   0xffffe686:	and    DWORD PTR [bp+di+0x24],0xfffffffe
+   0xffffe68b:	jmp    0xffffe692
+   0xffffe68d:	or     DWORD PTR [bp+di+0x24],0x1
+   0xffffe692:	pop    bx
+   0xffffe694:	pop    si
+   0xffffe696:	retw
+   0xffffe698:	push   bp
+   0xffffe69a:	push   di
+   0xffffe69c:	push   si
+   0xffffe69e:	push   bx
+   0xffffe6a0:	mov    bl,al
+   0xffffe6a2:	mov    di,0xd9f0
+   0xffffe6a6:	add    BYTE PTR [eax],al
+   0xffffe6a8:	xor    si,si
+   0xffffe6ab:	movzx  bp,dl
+   0xffffe6af:	test   bl,bl
+   0xffffe6b1:	je     0xffffe6e8
+   0xffffe6b3:	movzx  ax,bl
+   0xffffe6b7:	bt     ax,si
+   0xffffe6bb:	jae    0xffffe6e0
+   0xffffe6bd:	mov    eax,DWORD PTR cs:[bx]
+   0xffffe6c1:	movzx  ax,ax
+   0xffffe6c5:	xor    cx,cx
+   0xffffe6c8:	mov    dx,bp
+   0xffffe6cb:	callw  0x8430
+   0xffffe6cf:	(bad)
+   0xffffe6d0:	jmp    DWORD PTR [esi-0x48]
+   0xffffe6d3:	(bad)
+   0xffffe6d4:	(bad)
+   0xffffe6d5:	(bad)
+   0xffffe6d6:	jmp    DWORD PTR [esi-0x77]
+   0xffffe6d9:	icebp
+   0xffffe6da:	rol    ax,cl
+   0xffffe6dd:	and    bx,ax
+   0xffffe6e0:	inc    si
+   0xffffe6e2:	add    di,0x2
+   0xffffe6e6:	jmp    0xffffe6af
+   0xffffe6e8:	pop    bx
+   0xffffe6ea:	pop    si
+   0xffffe6ec:	pop    di
+   0xffffe6ee:	pop    bp
+   0xffffe6f0:	retw
+   0xffffe6f2:	jmp    0x8d487
+   0xffffe6f7:	cld
+   0xffffe6f8:	add    BYTE PTR [ecx],al
+   0xffffe6fa:	je     0xffffe73c
+   0xffffe6fc:	add    BYTE PTR [eax],al
+   0xffffe6fe:	add    BYTE PTR [esi-0x47],ah
+   0xffffe701:	sbb    ah,0x0
+   0xffffe704:	add    BYTE PTR [esi+0xe8a26c1],cl
+   0xffffe70a:	repnz repnz test cl,cl
+   0xffffe70e:	jne    0xffffe727
+   0xffffe710:	mov    cx,0x40
+   0xffffe714:	add    BYTE PTR [eax],al
+   0xffffe716:	mov    es,ecx
+   0xffffe718:	shl    ax,0x8
+   0xffffe71c:	movzx  dx,dl
+   0xffffe720:	or     ax,dx
+   0xffffe723:	mov    es:0xc3660050,eax
+   0xffffe729:	add    BYTE PTR [eax],al
+   0xffffe72b:	add    BYTE PTR [eax],al
+   0xffffe72d:	add    BYTE PTR [eax],al
+   0xffffe72f:	add    BYTE PTR [eax],al
+   0xffffe731:	add    BYTE PTR [eax],al
+   0xffffe733:	add    BYTE PTR [eax],al
+   0xffffe735:	add    BYTE PTR [eax],al
+   0xffffe737:	add    BYTE PTR [eax],al
+   0xffffe739:	pushw  0xbd9d
+   0xffffe73d:	add    BYTE PTR [eax],al
+   0xffffe73f:	jmp    0x5366d3a6
+   0xffffe744:	sub    sp,0x20
+   0xffffe748:	mov    bx,ax
+   0xffffe74b:	test   ax,ax
+   0xffffe74e:	jne    0xffffe762
+   0xffffe750:	mov    WORD PTR [si],0xab24
+   0xffffe756:	aam    0x0
+   0xffffe758:	add    BYTE PTR [esi-0x18],ah
+   0xffffe75b:	jle    0xbde9e760
+   0xffffe761:	add    BYTE PTR [eax+edx*8-0x3f48f09a],cl
+   0xffffe768:	mov    WORD PTR [si+0x24],ax
+   0xffffe76d:	sbb    al,0x67
+   0xffffe76f:	movzx  ax,WORD PTR [ebx+0x2]
+   0xffffe774:	mov    WORD PTR [si+0x24],ax
+   0xffffe779:	sbb    BYTE PTR [edi+0x66],ah
+   0xffffe77c:	movzx  eax,WORD PTR [ebx]
+   0xffffe77f:	mov    WORD PTR [si+0x24],ax
+   0xffffe784:	adc    al,0x67
+   0xffffe786:	mov    ax,WORD PTR [ebx+0x14]
+   0xffffe78a:	mov    WORD PTR [si+0x24],ax
+   0xffffe78f:	adc    BYTE PTR [edi+0x66],ah
+   0xffffe792:	mov    eax,DWORD PTR [ebx+0x18]
+   0xffffe795:	mov    WORD PTR [si+0x24],ax
+   0xffffe79a:	or     al,0x67
+   0xffffe79c:	mov    ax,WORD PTR [ebx+0x10]
+   0xffffe7a0:	mov    WORD PTR [si+0x24],ax
+   0xffffe7a5:	or     BYTE PTR [edi+0x66],ah
+   0xffffe7a8:	mov    eax,DWORD PTR [ebx+0x1c]
+   0xffffe7ab:	mov    WORD PTR [si+0x24],ax
+   0xffffe7b0:	add    al,0x67
+   0xffffe7b2:	mov    WORD PTR [esp],0xd4b3
+   0xffffe7b8:	add    BYTE PTR [eax],al
+   0xffffe7ba:	callw  0x756c
+   0xffffe7be:	(bad)
+   0xffffe7bf:	jmp    DWORD PTR [edi+0x66]
+   0xffffe7c2:	movzx  eax,WORD PTR [ebx+0x24]
+   0xffffe7c6:	mov    WORD PTR [si+0x24],ax
+   0xffffe7cb:	sbb    al,0x67
+   0xffffe7cd:	movzx  ax,WORD PTR [ebx+0x20]
+   0xffffe7d2:	mov    WORD PTR [si+0x24],ax
+   0xffffe7d7:	sbb    BYTE PTR [edi+0x66],ah
+   0xffffe7da:	movzx  eax,WORD PTR [ebx+0x22]
+   0xffffe7de:	mov    WORD PTR [si+0x24],ax
+   0xffffe7e3:	adc    al,0x67
+   0xffffe7e5:	lea    ax,[ebx+0x26]
+   0xffffe7e9:	mov    WORD PTR [si+0x24],ax
+   0xffffe7ee:	adc    BYTE PTR [edi+0x66],ah
+   0xffffe7f1:	mov    eax,DWORD PTR [ebx+0xc]
+   0xffffe7f4:	mov    WORD PTR [si+0x24],ax
+   0xffffe7f9:	or     al,0x67
+   0xffffe7fb:	mov    ax,WORD PTR [ebx+0x4]
+   0xffffe7ff:	mov    WORD PTR [si+0x24],ax
+   0xffffe804:	or     BYTE PTR [edi+0x66],ah
+   0xffffe807:	mov    eax,DWORD PTR [ebx+0x8]
+   0xffffe80a:	mov    WORD PTR [si+0x24],ax
+   0xffffe80f:	add    al,0x67
+   0xffffe811:	mov    WORD PTR [esp],0xd4ee
+   0xffffe817:	add    BYTE PTR [eax],al
+   0xffffe819:	callw  0x756c
+   0xffffe81d:	(bad)
+   0xffffe81e:	jmp    DWORD PTR [esi-0x7d]
+   0xffffe821:	les    esp,FWORD PTR [eax]
+   0xffffe823:	pop    bx
+   0xffffe825:	retw
+   0xffffe827:	mov    al,0x20
+   0xffffe829:	out    0x20,al
+   0xffffe82b:	retw
+   0xffffe82d:	nop
+   0xffffe82e:	pushw  0xbc09
+   0xffffe832:	add    BYTE PTR [eax],al
+   0xffffe834:	jmp    0x5566d3a6
+   0xffffe839:	push   di
+   0xffffe83b:	push   si
+   0xffffe83d:	push   bx
+   0xffffe83f:	sub    sp,0x18
+   0xffffe843:	mov    bx,ax
+   0xffffe846:	mov    WORD PTR [si+0x24],dx
+   0xffffe84b:	or     BYTE PTR [esi-0x77],ah
+   0xffffe84e:	retf   0x6667
+   0xffffe851:	mov    DWORD PTR [esp+0xc],ecx
+   0xffffe855:	mov    ax,WORD PTR [bx+si+0x4]
+   0xffffe85a:	mov    ax,WORD PTR cs:[bx+si+0x24]
+   0xffffe861:	icebp
+   0xffffe862:	jmp    FWORD PTR [esi]
+   0xffffe864:	mov    edi,DWORD PTR [bx+si+0x0]
+   0xffffe869:	icebp
+   0xffffe86a:	jmp    DWORD PTR [edi-0x77]
+   0xffffe86d:	jl     0xffffe893
+   0xffffe86f:	adc    BYTE PTR [esi],ch
+   0xffffe871:	mov    esi,DWORD PTR [bx+si+0x2]
+   0xffffe876:	icebp
+   0xffffe877:	jmp    DWORD PTR [edi+0x66]
+   0xffffe87a:	movzx  ebp,WORD PTR [ebx+0xa]
+   0xffffe87e:	mov    ax,WORD PTR [bp+di]
+   0xffffe882:	mov    WORD PTR [si],ax
+   0xffffe886:	and    al,0x66
+   0xffffe888:	mov    ecx,0x2
+   0xffffe88d:	mov    ax,dx
+   0xffffe890:	cwd
+   0xffffe892:	idiv   cx
+   0xffffe895:	movzx  ax,ax
+   0xffffe899:	mov    WORD PTR [si+0x24],ax
+   0xffffe89e:	add    al,0x67
+   0xffffe8a0:	lea    ax,[esi+0x2]
+   0xffffe8a4:	mov    DWORD PTR [si+0x24],eax
+   0xffffe8a8:	adc    ah,BYTE PTR [esi+0xf]
+   0xffffe8ab:	mov    bh,0xc7
+   0xffffe8ad:	mov    WORD PTR [si+0x24],ax
+   0xffffe8b2:	adc    al,0x67
+   0xffffe8b4:	cmp    WORD PTR [esp+0x8],0x0
+   0xffffe8ba:	je     0xffffe8e0
+   0xffffe8bc:	mov    si,WORD PTR [si]
+   0xffffe8c0:	and    al,0x66
+   0xffffe8c2:	mov    eax,esi
+   0xffffe8c4:	shr    ax,0x4
+   0xffffe8c8:	mov    es,eax
+   0xffffe8ca:	and    si,0xf
+   0xffffe8ce:	mov    cx,WORD PTR [si+0x24]
+   0xffffe8d3:	add    al,0x67
+   0xffffe8d5:	mov    dx,WORD PTR [esp+0x10]
+   0xffffe8da:	rep outs dx,DWORD PTR es:[si]
+   0xffffe8de:	jmp    0xffffe901
+   0xffffe8e0:	mov    di,WORD PTR [si]
+   0xffffe8e4:	and    al,0x66
+   0xffffe8e6:	mov    eax,edi
+   0xffffe8e8:	shr    ax,0x4
+   0xffffe8ec:	mov    es,eax
+   0xffffe8ee:	and    di,0xf
+   0xffffe8f2:	mov    cx,WORD PTR [si+0x24]
+   0xffffe8f7:	add    al,0x67
+   0xffffe8f9:	mov    dx,WORD PTR [esp+0x10]
+   0xffffe8fe:	rep ins DWORD PTR es:[di],dx
+   0xffffe901:	mov    ax,WORD PTR [si+0x24]
+   0xffffe906:	or     al,0x67
+   0xffffe908:	add    WORD PTR [esp],ax
+   0xffffe90c:	mov    edx,DWORD PTR [si+0x24]
+   0xffffe910:	adc    ch,ah
+   0xffffe912:	mov    ax,WORD PTR [si+0x24]
+   0xffffe917:	adc    al,0x66
+   0xffffe919:	call   0xffffa774
+   0xffffe91e:	test   ax,ax
+   0xffffe921:	jns    0xffffe929
+   0xffffe923:	sub    DWORD PTR [bp+di+0xa],ebp
+   0xffffe927:	jmp    0xffffe971
+   0xffffe929:	dec    bp
+   0xffffe92b:	je     0xffffe947
+   0xffffe92d:	and    ax,0x89
+   0xffffe931:	add    BYTE PTR [eax],al
+   0xffffe933:	cmp    ax,0x8
+   0xffffe937:	je     0x2967e8b5
+   0xffffe93d:	imul   ecx,DWORD PTR [edx],0x66
+   0xffffe940:	mov    eax,0xfffffffa
+   0xffffe945:	jmp    0xffffe971
+   0xffffe947:	mov    dx,ax
+   0xffffe94a:	and    dx,0x89
+   0xffffe94f:	add    BYTE PTR [eax],al
+   0xffffe951:	cmp    WORD PTR [si+0x24],0x8
+   0xffffe957:	add    BYTE PTR [ecx+ecx*1+0x66],dh
+   0xffffe95b:	and    eax,0xa9
+   0xffffe960:	mov    dx,ax
+   0xffffe963:	cmp    dx,0x1
+   0xffffe967:	sbb    ax,ax
+   0xffffe96a:	not    ax
+   0xffffe96d:	and    ax,0xfff9
+   0xffffe971:	add    sp,0x18
+   0xffffe975:	pop    bx
+   0xffffe977:	pop    si
+   0xffffe979:	pop    di
+   0xffffe97b:	pop    bp
+   0xffffe97d:	retw
+   0xffffe97f:	int    0x1c
+   0xffffe981:	retf
+   0xffffe982:	int    0x1b
+   0xffffe984:	retf
+   0xffffe985:	xchg   ax,ax
+   0xffffe987:	pushw  0xcef7
+   0xffffe98b:	add    BYTE PTR [eax],al
+   0xffffe98d:	jmp    0x5566d319
+   0xffffe992:	push   di
+   0xffffe994:	push   si
+   0xffffe996:	push   bx
+   0xffffe998:	sub    sp,0x28
+   0xffffe99c:	mov    WORD PTR [si+0x24],ax
+   0xffffe9a1:	or     al,0x66
+   0xffffe9a3:	mov    ecx,edx
+   0xffffe9a5:	shr    cx,0x4
+   0xffffe9a9:	mov    es,ecx
+   0xffffe9ab:	mov    cx,dx
+   0xffffe9ae:	and    cx,0xf
+   0xffffe9b2:	mov    cl,BYTE PTR es:[bx+di]
+   0xffffe9b6:	cmp    cl,0x20
+   0xffffe9b9:	jb     0xf97febf5
+   0xffffe9bf:	and    DWORD PTR [esi+0x69],esi
+   0xffffe9c2:	sub    cx,0x60
+   0xffffe9c6:	cmp    cl,0x1
+   0xffffe9c9:	ja     0x6666ebf5
+   0xffffe9cf:	lea    ecx,[edx+0x14]
+   0xffffe9d2:	mov    bx,cx
+   0xffffe9d5:	shr    bx,0x4
+   0xffffe9d9:	mov    es,ebx
+   0xffffe9db:	and    cx,0xf
+   0xffffe9df:	mov    bx,WORD PTR es:[bx+di]
+   0xffffe9e4:	movzx  bx,bx
+   0xffffe9e8:	mov    WORD PTR [si+0x24],0x8
+   0xffffe9ef:	add    BYTE PTR [eax],al
+   0xffffe9f1:	add    BYTE PTR [esi-0x77],ah
+   0xffffe9f4:	fldenv [esi-0x7d]
+   0xffffe9f7:	loope  0xffffea00
+   0xffffe9f9:	shl    cx,0x10
+   0xffffe9fd:	mov    si,bx
+   0xffffea00:	shr    si,0x8
+   0xffffea04:	or     cx,si
+   0xffffea07:	shl    bx,0x5
+   0xffffea0b:	and    bx,0x1f00
+   0xffffea10:	add    BYTE PTR [eax],al
+   0xffffea12:	or     cx,bx
+   0xffffea15:	mov    WORD PTR [si+0x24],cx
+   0xffffea1a:	add    al,0x67
+   0xffffea1c:	mov    WORD PTR [esp],0x22
+   0xffffea22:	add    BYTE PTR [eax],al
+   0xffffea24:	or     cx,0xffff
+   0xffffea28:	jmp    0x672dec15
+   0xffffea2d:	mov    cx,WORD PTR [edx-0xeffdc]
+   0xffffea34:	mov    bl,BYTE PTR cs:[bp+si+0x28]
+   0xffffea3a:	icebp
+   0xffffea3b:	jmp    DWORD PTR [edi-0x78]
+   0xffffea3e:	pop    esp
+   0xffffea3f:	and    al,0x11
+   0xffffea41:	mov    esi,DWORD PTR cs:[bx+di+0x2]
+   0xffffea47:	icebp
+   0xffffea48:	jmp    FWORD PTR [esi]
+   0xffffea4a:	mov    bl,BYTE PTR [bx+di+0x6]
+   0xffffea4f:	icebp
+   0xffffea50:	jmp    FWORD PTR [esi]
+   0xffffea52:	mov    eax,DWORD PTR [bx+di+0x0]
+   0xffffea57:	icebp
+   0xffffea58:	jmp    DWORD PTR [edi-0x77]
+   0xffffea5b:	inc    esp
+   0xffffea5c:	and    al,0x12
+   0xffffea5e:	mov    di,WORD PTR cs:[bx+di+0xc]
+   0xffffea65:	icebp
+   0xffffea66:	jmp    FWORD PTR [esi]
+   0xffffea68:	mov    cl,BYTE PTR [bx+di+0x7]
+   0xffffea6d:	icebp
+   0xffffea6e:	jmp    DWORD PTR [edi-0x78]
+   0xffffea71:	dec    esp
+   0xffffea72:	and    al,0x14
+   0xffffea74:	mov    cl,BYTE PTR cs:[bp+si+0x0]
+   0xffffea7a:	icebp
+   0xffffea7b:	jmp    DWORD PTR [esi-0x43]
+   0xffffea7e:	pusha
+   0xffffea7f:	add    BYTE PTR [eax],al
+   0xffffea81:	add    BYTE PTR [eax+0x2d7520f9],al
+   0xffffea87:	mov    cl,BYTE PTR cs:[bp+si+0x19]
+   0xffffea8d:	icebp
+   0xffffea8e:	jmp    DWORD PTR [esi+0x31]
+   0xffffea91:	in     eax,dx
+   0xffffea92:	test   cl,cl
+   0xffffea94:	je     0xffffeab4
+   0xffffea96:	cmp    cl,0x1
+   0xffffea99:	je     0xffffeaae
+   0xffffea9b:	mov    bp,0x608
+   0xffffea9f:	add    BYTE PTR [eax],al
+   0xffffeaa1:	cmp    cl,0x3
+   0xffffeaa4:	je     0xffffeab4
+   0xffffeaa6:	mov    bp,0x8
+   0xffffeaaa:	add    BYTE PTR [eax],al
+   0xffffeaac:	jmp    0xffffeab4
+   0xffffeaae:	mov    bp,0x208
+   0xffffeab2:	add    BYTE PTR [eax],al
+   0xffffeab4:	or     bp,0x10
+   0xffffeab8:	mov    WORD PTR [si+0x24],0x8024
+   0xffffeabf:	fadd   QWORD PTR [eax]
+   0xffffeac1:	add    BYTE PTR [edi+0x66],ah
+   0xffffeac4:	movzx  ecx,WORD PTR [esp+0x24]
+   0xffffeac9:	mov    es,ecx
+   0xffffeacb:	mov    eax,DWORD PTR [si+0x24]
+   0xffffeacf:	adc    ah,BYTE PTR [esi]
+   0xffffead1:	mov    ds:0xc18ef320,eax
+   0xffffead6:	add    si,0x2
+   0xffffeada:	mov    DWORD PTR es:[esi],esi
+   0xffffeadd:	and    dh,bl
+   0xffffeadf:	cmp    BYTE PTR [si+0x24],0x11
+   0xffffeae4:	add    DWORD PTR [esi+0x19],esp
+   0xffffeae7:	mul    BYTE PTR [esi-0x7d]
+   0xffffeaea:	out    0xf0,al
+   0xffffeaec:	sub    si,0x10
+   0xffffeaf0:	mov    es,ecx
+   0xffffeaf2:	mov    ax,si
+   0xffffeaf5:	mov    es:0xc18ef324,al
+   0xffffeafb:	mov    si,0xffcb
+   0xffffeaff:	(bad)
+   0xffffeb00:	jmp    DWORD PTR [esi-0x77]
+   0xffffeb03:	lock mov es:0xc18ef325,al
+   0xffffeb0a:	mov    BYTE PTR es:[esi],bl
+   0xffffeb0d:	es repz mov es,ecx
+   0xffffeb11:	mov    bl,0x1
+   0xffffeb13:	mov    BYTE PTR es:[esi],bl
+   0xffffeb16:	daa
+   0xffffeb17:	repz mov es,ecx
+   0xffffeb1a:	xor    bx,bx
+   0xffffeb1d:	mov    BYTE PTR es:[esi],bl
+   0xffffeb20:	sub    bl,dh
+   0xffffeb22:	mov    es,ecx
+   0xffffeb24:	mov    BYTE PTR es:[esi],bl
+   0xffffeb27:	sub    ebx,esi
+   0xffffeb29:	mov    es,ecx
+   0xffffeb2b:	mov    DWORD PTR es:[esi],ebp
+   0xffffeb2e:	sub    dh,bl
+   0xffffeb30:	mov    es,ecx
+   0xffffeb32:	xor    bx,bx
+   0xffffeb35:	mov    DWORD PTR es:[esi],ebx
+   0xffffeb38:	sub    al,0xf3
+   0xffffeb3a:	mov    es,ecx
+   0xffffeb3c:	mov    bl,0x11
+   0xffffeb3e:	mov    BYTE PTR es:[esi],bl
+   0xffffeb41:	cs repz mov es,ecx
+   0xffffeb45:	mov    bx,0xf320
+   0xffffeb49:	add    BYTE PTR [eax],al
+   0xffffeb4b:	xor    si,si
+   0xffffeb4e:	mov    al,BYTE PTR es:[bp+di]
+   0xffffeb52:	mov    bp,ax
+   0xffffeb55:	add    si,bp
+   0xffffeb58:	inc    bx
+   0xffffeb5a:	cmp    bx,0xf32f
+   0xffffeb5f:	add    BYTE PTR [eax],al
+   0xffffeb61:	jne    0xffffeb4e
+   0xffffeb63:	mov    es,ecx
+   0xffffeb65:	mov    cx,si
+   0xffffeb68:	neg    cx
+   0xffffeb6b:	mov    BYTE PTR es:[esi],cl
+   0xffffeb6e:	das
+   0xffffeb6f:	repz test di,di
+   0xffffeb73:	jns    0xffffeb84
+   0xffffeb75:	movzx  bx,WORD PTR [si+0x24]
+   0xffffeb7b:	adc    ah,BYTE PTR [esi-0x42]
+   0xffffeb7e:	add    DWORD PTR [eax],eax
+   0xffffeb80:	add    BYTE PTR [eax],al
+   0xffffeb82:	jmp    0xffffebbe
+   0xffffeb84:	movzx  cx,di
+   0xffffeb88:	mov    bx,cx
+   0xffffeb8b:	and    bx,0x7
+   0xffffeb8f:	shl    bx,0x10
+   0xffffeb93:	mov    si,cx
+   0xffffeb96:	shr    si,0x8
+   0xffffeb9a:	or     bx,si
+   0xffffeb9d:	shl    cx,0x5
+   0xffffeba1:	and    cx,0x1f00
+   0xffffeba6:	add    BYTE PTR [eax],al
+   0xffffeba8:	or     bx,cx
+   0xffffebab:	mov    cx,WORD PTR [si+0x24]
+   0xffffebb0:	adc    al,0x66
+   0xffffebb2:	shl    ecx,0x18
+   0xffffebb5:	or     bx,cx
+   0xffffebb8:	mov    si,0x2
+   0xffffebbc:	add    BYTE PTR [eax],al
+   0xffffebbe:	mov    di,0xdc80
+   0xffffebc2:	add    BYTE PTR [eax],al
+   0xffffebc4:	shl    di,0x10
+   0xffffebc8:	mov    cx,0xf320
+   0xffffebcc:	add    BYTE PTR [eax],al
+   0xffffebce:	movzx  cx,cx
+   0xffffebd2:	or     cx,di
+   0xffffebd5:	movzx  di,BYTE PTR [si+0x24]
+   0xffffebdb:	adc    DWORD PTR [edi+0x66],esp
+   0xffffebde:	mov    DWORD PTR [esp+0x8],edi
+   0xffffebe2:	mov    WORD PTR [si+0x24],bx
+   0xffffebe7:	add    al,0x66
+   0xffffebe9:	or     esi,0x10
+   0xffffebec:	mov    WORD PTR [si],si
+   0xffffebf0:	and    al,0xeb
+   0xffffebf2:	and    BYTE PTR [edi+0x66],ah
+   0xffffebf5:	mov    DWORD PTR [esp+0x8],0x0
+   0xffffebfd:	mov    WORD PTR [si+0x24],0x4
+   0xffffec04:	add    BYTE PTR [eax],al
+   0xffffec06:	add    BYTE PTR [edi+0x66],ah
+   0xffffec09:	mov    DWORD PTR [esp],0x0
+   0xffffec10:	xor    cx,cx
+   0xffffec13:	mov    ax,WORD PTR [si+0x24]
+   0xffffec18:	or     al,0x66
+   0xffffec1a:	call   0xffff75bd
+   0xffffec1f:	add    sp,0x28
+   0xffffec23:	pop    bx
+   0xffffec25:	pop    si
+   0xffffec27:	pop    di
+   0xffffec29:	pop    bp
+   0xffffec2b:	retw
+   0xffffec2d:	push   bx
+   0xffffec2f:	mov    bx,ax
+   0xffffec32:	in     al,0x92
+   0xffffec34:	mov    cl,al
+   0xffffec36:	mov    dl,al
+   0xffffec38:	shr    dl,1
+   0xffffec3a:	and    dx,0x1
+   0xffffec3e:	test   bl,bl
+   0xffffec40:	setne  al
+   0xffffec43:	cmp    dl,al
+   0xffffec45:	je     0xffffec4f
+   0xffffec47:	mov    al,cl
+   0xffffec49:	xor    ax,0x2
+   0xffffec4d:	out    0x92,al
+   0xffffec4f:	mov    al,dl
+   0xffffec51:	pop    bx
+   0xffffec53:	retw
+   0xffffec55:	int    0x18
+   0xffffec57:	retf
+   0xffffec58:	nop
+   0xffffec59:	pushw  0xba2f
+   0xffffec5d:	add    BYTE PTR [eax],al
+   0xffffec5f:	jmp    0x5566d3a6
+   0xffffec64:	push   di
+   0xffffec66:	push   si
+   0xffffec68:	push   bx
+   0xffffec6a:	sub    sp,0x1c
+   0xffffec6e:	mov    bx,ax
+   0xffffec71:	mov    WORD PTR [si+0x24],dx
+   0xffffec76:	add    al,0x2e
+   0xffffec78:	mov    ax,WORD PTR [bx+si+0x14]
+   0xffffec7e:	icebp
+   0xffffec7f:	jmp    DWORD PTR [esi-0x77]
+   0xffffec82:	(bad)
+   0xffffec83:	mov    WORD PTR [si+0x24],ax
+   0xffffec88:	or     al,0x66
+   0xffffec8a:	mov    eax,0x40
+   0xffffec8f:	mov    es,eax
+   0xffffec91:	mov    dl,BYTE PTR es:[esi]
+   0xffffec94:	add    BYTE PTR ds:[esi-0x77],ah
+   0xffffec98:	icebp
+   0xffffec99:	movzx  si,cl
+   0xffffec9d:	movzx  dx,dl
+   0xffffeca1:	bt     dx,si
+   0xffffeca5:	jb     0xffffeccf
+   0xffffeca7:	mov    ax,si
+   0xffffecaa:	mov    BYTE PTR [si+0x24],al
+   0xffffecae:	sbb    ah,BYTE PTR [edi+0x66]
+   0xffffecb1:	lea    ecx,[esp+0x1a]
+   0xffffecb5:	mov    dx,0x107
+   0xffffecb9:	add    DWORD PTR [eax],eax
+   0xffffecbb:	mov    ax,si
+   0xffffecbe:	callw  0xa0e7
+   0xffffecc2:	(bad)
+   0xffffecc3:	jmp    DWORD PTR [esi-0x77]
+   0xffffecc6:	(bad)
+   0xffffecc7:	test   ax,ax
+   0xffffecca:	je     0xffffece0
+   0xffffeccc:	jmp    0xc08deed6
+   0xffffecd1:	mov    al,BYTE PTR es:[bp+0x90]
+   0xffffecd7:	add    BYTE PTR [eax],al
+   0xffffecd9:	test   al,0x10
+   0xffffecdb:	je     0xffffeca7
+   0xffffecdd:	jmp    0xb865ee7c
+   0xffffece2:	inc    eax
+   0xffffece3:	add    BYTE PTR [eax],al
+   0xffffece5:	add    BYTE PTR [esi+0x168a26c0],cl
+   0xffffeceb:	add    BYTE PTR ds:[esi+0x1bf66c0],cl
+   0xffffecf2:	add    BYTE PTR [eax],al
+   0xffffecf4:	add    BYTE PTR [esi-0x77],ah
+   0xffffecf7:	icebp
+   0xffffecf8:	shl    di,cl
+   0xffffecfb:	or     dx,di
+   0xffffecfe:	mov    BYTE PTR es:[esi],dl
+   0xffffed01:	add    BYTE PTR ds:[esi-0x3fce9940],cl
+   0xffffed08:	mov    BYTE PTR es:[bp+0x94],al
+   0xffffed0e:	add    BYTE PTR [eax],al
+   0xffffed10:	mov    al,BYTE PTR cs:[bp+di+0x1]
+   0xffffed16:	icebp
+   0xffffed17:	dec    DWORD PTR [eax+0x448867c2]
+   0xffffed1d:	and    al,0x13
+   0xffffed1f:	mov    cl,al
+   0xffffed21:	mov    WORD PTR [si+0x24],cx
+   0xffffed26:	adc    al,0x2e
+   0xffffed28:	mov    ax,WORD PTR [bp+di+0x14]
+   0xffffed2e:	icebp
+   0xffffed2f:	jmp    DWORD PTR [esi+0xf]
+   0xffffed32:	mov    dh,0xfa
+   0xffffed34:	mov    WORD PTR [si+0x24],di
+   0xffffed39:	or     BYTE PTR [esi+0x6b],ah
+   0xffffed3c:	out    dx,eax
+   0xffffed3d:	or     ch,BYTE PTR [esi]
+   0xffffed3f:	mov    bl,BYTE PTR [di+0x5f91]
+   0xffffed44:	add    BYTE PTR [eax],al
+   0xffffed46:	movzx  ax,al
+   0xffffed4a:	mov    WORD PTR [si],ax
+   0xffffed4e:	and    al,0x66
+   0xffffed50:	movzx  edx,bl
+   0xffffed53:	callw  0xa2e1
+   0xffffed57:	(bad)
+   0xffffed58:	jmp    DWORD PTR [esi-0x7b]
+   0xffffed5b:	shl    BYTE PTR [edi+0x66],0x8b
+   0xffffed5f:	dec    esp
+   0xffffed60:	and    al,0x14
+   0xffffed62:	je     0xbf65edf3
+   0xffffed68:	call   0x6701:0xb100005f
+   0xffffed6f:	cmp    cl,BYTE PTR [esp+0x13]
+   0xffffed73:	jne    0xffffed89
+   0xffffed75:	inc    cx
+   0xffffed77:	add    di,0xa
+   0xffffed7b:	cmp    cl,0x9
+   0xffffed7e:	jne    0xffffed6e
+   0xffffed80:	mov    di,0xc0
+   0xffffed84:	add    BYTE PTR [eax],al
+   0xffffed86:	jmp    0x672deed6
+   0xffffed8b:	mov    dl,BYTE PTR [edi]
+   0xffffed8d:	mov    al,BYTE PTR cs:[di+0x5f90]
+   0xffffed93:	add    BYTE PTR [eax],al
+   0xffffed95:	cmp    dl,al
+   0xffffed97:	jne    0xffffed75
+   0xffffed99:	mov    edx,DWORD PTR cs:[bx-0x8]
+   0xffffed9e:	mov    eax,DWORD PTR cs:[di+0x5f88]
+   0xffffeda4:	add    BYTE PTR [eax],al
+   0xffffeda6:	cmp    edx,eax
+   0xffffeda8:	ja     0xffffed75
+   0xffffedaa:	mov    edx,DWORD PTR cs:[bx-0x6]
+   0xffffedaf:	mov    eax,DWORD PTR cs:[di+0x5f8a]
+   0xffffedb5:	add    BYTE PTR [eax],al
+   0xffffedb7:	cmp    edx,eax
+   0xffffedb9:	ja     0xffffed75
+   0xffffedbb:	mov    edx,DWORD PTR cs:[bx-0x4]
+   0xffffedc0:	mov    eax,DWORD PTR cs:[di+0x5f8c]
+   0xffffedc6:	add    BYTE PTR [eax],al
+   0xffffedc8:	cmp    edx,eax
+   0xffffedca:	ja     0xffffed75
+   0xffffedcc:	mov    WORD PTR [si+0x24],cx
+   0xffffedd1:	adc    al,0x2e
+   0xffffedd3:	mov    bl,BYTE PTR [bx+0x1]
+   0xffffedd7:	movzx  dx,bl
+   0xffffeddb:	mov    ax,WORD PTR [si]
+   0xffffeddf:	and    al,0x66
+   0xffffede1:	call   0xffffa2e3
+   0xffffede6:	test   ax,ax
+   0xffffede9:	mov    cx,WORD PTR [si+0x24]
+   0xffffedee:	adc    al,0x75
+   0xffffedf0:	test   BYTE PTR [esi-0x46],ah
+   0xffffedf3:	inc    eax
+   0xffffedf4:	add    BYTE PTR [eax],al
+   0xffffedf6:	add    BYTE PTR [esi-0x7499983e],cl
+   0xffffedfc:	add    al,0x24
+   0xffffedfe:	mov    al,BYTE PTR es:[bx+si+0x90]
+   0xffffee04:	add    BYTE PTR [eax],al
+   0xffffee06:	movzx  bx,bl
+   0xffffee0a:	shl    bx,0x6
+   0xffffee0e:	mov    es,edx
+   0xffffee10:	shr    al,0x6
+   0xffffee13:	shl    ax,0x2
+   0xffffee17:	or     ax,bx
+   0xffffee1a:	mov    es:0xf980008b,al
+   0xffffee20:	add    DWORD PTR [esi+ecx*1-0x80],esi
+   0xffffee24:	stc
+   0xffffee25:	add    cl,BYTE PTR [edi]
+   0xffffee27:	xchg   ebp,eax
+   0xffffee28:	shl    BYTE PTR [edi+0x66],0x8d
+   0xffffee2c:	inc    esp
+   0xffffee2d:	add    BYTE PTR ds:0x4b002eb,al
+   0xffffee33:	or     bx,ax
+   0xffffee36:	movzx  cx,cl
+   0xffffee3a:	imul   cx,cx,0xa
+   0xffffee3e:	mov    ecx,DWORD PTR cs:[bx+di+0x5f8a]
+   0xffffee44:	add    BYTE PTR [eax],al
+   0xffffee46:	imul   ax,WORD PTR [si+0x24],0x8
+   0xffffee4c:	or     ch,BYTE PTR [esi]
+   0xffffee4e:	mov    edx,DWORD PTR [bx+si+0x5f8a]
+   0xffffee53:	add    BYTE PTR [eax],al
+   0xffffee55:	mov    al,bl
+   0xffffee57:	or     ax,0x30
+   0xffffee5b:	cmp    ecx,edx
+   0xffffee5d:	jb     0xffffee65
+   0xffffee5f:	mov    al,bl
+   0xffffee61:	or     ax,0x10
+   0xffffee65:	mov    dx,0x40
+   0xffffee69:	add    BYTE PTR [eax],al
+   0xffffee6b:	mov    es,edx
+   0xffffee6d:	mov    bx,WORD PTR [si]
+   0xffffee71:	and    al,0x26
+   0xffffee73:	mov    BYTE PTR [bp+di+0x90],al
+   0xffffee78:	add    BYTE PTR [eax],al
+   0xffffee7a:	mov    bx,0x40
+   0xffffee7e:	add    BYTE PTR [eax],al
+   0xffffee80:	mov    es,ebx
+   0xffffee82:	mov    al,BYTE PTR es:[bp+0x94]
+   0xffffee88:	add    BYTE PTR [eax],al
+   0xffffee8a:	xor    di,di
+   0xffffee8d:	mov    cx,WORD PTR [si+0x24]
+   0xffffee92:	add    al,0x38
+   0xffffee94:	shl    DWORD PTR [ebp+edi*1+0x67],0x8a
+   0xffffee99:	inc    esp
+   0xffffee9a:	and    al,0xc
+   0xffffee9c:	mov    BYTE PTR [si+0x24],al
+   0xffffeea0:	sbb    ah,BYTE PTR [edi-0x78]
+   0xffffeea3:	dec    esp
+   0xffffeea4:	and    al,0x1b
+   0xffffeea6:	lea    cx,[si+0x24]
+   0xffffeeab:	sbb    ah,BYTE PTR [esi-0x46]
+   0xffffeeae:	lar    eax,WORD PTR [ecx]
+   0xffffeeb1:	add    BYTE PTR [esi-0x77],ah
+   0xffffeeb4:	lock callw 0xa0e7
+   0xffffeeb9:	(bad)
+   0xffffeeba:	jmp    DWORD PTR [esi-0x7b]
+   0xffffeebd:	shl    BYTE PTR [ebp+eax*1+0x66],0x89
+   0xffffeec2:	(bad)
+   0xffffeec3:	jmp    0xffffeed4
+   0xffffeec5:	mov    es,ebx
+   0xffffeec7:	mov    al,BYTE PTR [si+0x24]
+   0xffffeecb:	add    al,0x26
+   0xffffeecd:	mov    BYTE PTR [bp+0x94],al
+   0xffffeed2:	add    BYTE PTR [eax],al
+   0xffffeed4:	mov    ax,di
+   0xffffeed7:	add    sp,0x1c
+   0xffffeedb:	pop    bx
+   0xffffeedd:	pop    si
+   0xffffeedf:	pop    di
+   0xffffeee1:	pop    bp
+   0xffffeee3:	retw
+   0xffffeee5:	push   bp
+   0xffffeee7:	push   di
+   0xffffeee9:	push   si
+   0xffffeeeb:	push   bx
+   0xffffeeed:	mov    si,ax
+   0xffffeef0:	mov    ax,0xdc80
+   0xffffeef4:	add    BYTE PTR [eax],al
+   0xffffeef6:	mov    es,eax
+   0xffffeef8:	mov    ebx,DWORD PTR es:[esi]
+   0xffffeefb:	hlt
+   0xffffeefc:	repnz mov ax,0x40
+   0xffffef01:	add    BYTE PTR [eax],al
+   0xffffef03:	mov    es,eax
+   0xffffef05:	mov    ax,es:0x8366006c
+   0xffffef0c:	ror    BYTE PTR [ebx],0x66
+   0xffffef0f:	mov    ecx,0x1800b0
+   0xffffef14:	xor    dx,dx
+   0xffffef17:	div    cx
+   0xffffef1a:	mov    di,dx
+   0xffffef1d:	lea    bp,[bp+di+0x5]
+   0xffffef22:	mov    dx,bp
+   0xffffef25:	in     al,dx
+   0xffffef26:	and    ax,0x60
+   0xffffef2a:	cmp    al,0x60
+   0xffffef2c:	jne    0xffffef37
+   0xffffef2e:	mov    ax,si
+   0xffffef31:	mov    dx,bx
+   0xffffef34:	out    dx,al
+   0xffffef35:	jmp    0xffffef4d
+   0xffffef37:	mov    ax,di
+   0xffffef3a:	callw  0x6c1d
+   0xffffef3e:	(bad)
+   0xffffef3f:	jmp    DWORD PTR [esi-0x7b]
+   0xffffef42:	shl    BYTE PTR [ebp+0x8],0x66
+   0xffffef46:	call   0xffff85ee
+   0xffffef4b:	jmp    0xffffef22
+   0xffffef4d:	pop    bx
+   0xffffef4f:	pop    si
+   0xffffef51:	pop    di
+   0xffffef53:	pop    bp
+   0xffffef55:	retw
+   0xffffef57:	pushw  0xcf45
+   0xffffef5b:	add    BYTE PTR [eax],al
+   0xffffef5d:	jmp    0x5666d319
+   0xffffef62:	push   bx
+   0xffffef64:	mov    bx,ax
+   0xffffef67:	mov    si,dx
+   0xffffef6a:	mov    dx,0x7900
+   0xffffef6e:	add    DWORD PTR [eax],eax
+   0xffffef70:	callw  0x704d
+   0xffffef74:	(bad)
+   0xffffef75:	jmp    DWORD PTR [edi-0x76]
+   0xffffef78:	inc    ebx
+   0xffffef79:	adc    al,0x66
+   0xffffef7b:	add    eax,0xffffff80
+   0xffffef7e:	cmp    al,0x5f
+   0xffffef80:	jbe    0xffffef89
+   0xffffef82:	mov    BYTE PTR [bp+di+0x1d],0x1
+   0xffffef87:	jmp    0xffffefbc
+   0xffffef89:	mov    ax,si
+   0xffffef8c:	callw  0x6d81
+   0xffffef90:	(bad)
+   0xffffef91:	jmp    DWORD PTR [esi+0xf]
+   0xffffef94:	mov    bh,0xd2
+   0xffffef96:	movzx  cx,ax
+   0xffffef9a:	imul   dx,cx
+   0xffffef9e:	shr    ax,0x10
+   0xffffefa2:	dec    ax
+   0xffffefa4:	imul   dx,ax
+   0xffffefa8:	mov    ax,dx
+   0xffffefab:	shr    ax,0x10
+   0xffffefaf:	mov    DWORD PTR [bp+di+0x18],eax
+   0xffffefb3:	mov    DWORD PTR [bp+di+0x14],edx
+   0xffffefb7:	mov    BYTE PTR [bp+di+0x1d],0x3
+   0xffffefbc:	pop    bx
+   0xffffefbe:	pop    si
+   0xffffefc0:	retw
+   0xffffefc2:	int    0x4a
+   0xffffefc4:	retf
+   0xffffefc5:	xchg   ax,ax
+   0xffffefc7:	add    BYTE PTR [eax],al
+   0xffffefc9:	add    BYTE PTR [eax],al
+   0xffffefcb:	add    BYTE PTR [eax],al
+   0xffffefcd:	add    BYTE PTR [eax],al
+   0xffffefcf:	add    BYTE PTR [eax],al
+   0xffffefd1:	add    BYTE PTR [esi+0x68],ah
+   0xffffefd4:	lea    edi,[edi-0x36170000]
+   0xffffefda:	jecxz  0xfffff042
+   0xffffefdc:	push   edi
+   0xffffefdd:	push   si
+   0xffffefdf:	push   bx
+   0xffffefe1:	push   bx
+   0xffffefe3:	mov    bx,ax
+   0xffffefe6:	mov    WORD PTR [si],dx
+   0xffffefea:	and    al,0x66
+   0xffffefec:	mov    esi,ecx
+   0xffffefee:	callw  0x6ae0
+   0xffffeff2:	(bad)
+   0xffffeff3:	jmp    DWORD PTR [esi-0x7b]
+   0xffffeff6:	shl    BYTE PTR [edi+0x66],0x8b
+   0xffffeffa:	adc    al,0x24
+   0xffffeffc:	mov    ax,bx
+   0xffffefff:	jne    0xfffff006
+   0xfffff001:	call   si
+   0xfffff004:	jmp    0xfffff033
+   0xfffff006:	mov    cx,si
+   0xfffff009:	mov    si,WORD PTR [esi]
+   0xfffff00c:	xor    bl,dh
+   0xfffff00e:	mov    ebx,ss
+   0xfffff010:	mov    WORD PTR [esi],sp
+   0xfffff013:	xor    bl,dh
+   0xfffff015:	mov    di,WORD PTR [bp-0x4]
+   0xfffff01a:	mov    ss,edi
+   0xfffff01c:	mov    esp,DWORD PTR [bp-0x8]
+   0xfffff020:	mov    ds,edi
+   0xfffff022:	call   cx
+   0xfffff025:	mov    ds,ebx
+   0xfffff027:	mov    ss,ebx
+   0xfffff029:	mov    sp,WORD PTR [esi]
+   0xfffff02c:	xor    bl,dh
+   0xfffff02e:	mov    WORD PTR [esi],si
+   0xfffff031:	xor    bl,dh
+   0xfffff033:	pop    dx
+   0xfffff035:	pop    bx
+   0xfffff037:	pop    si
+   0xfffff039:	pop    di
+   0xfffff03b:	retw
+   0xfffff03d:	mov    al,0x20
+   0xfffff03f:	out    0xa0,al
+   0xfffff041:	out    0x20,al
+   0xfffff043:	retw
+   0xfffff045:	iret
+   0xfffff046:	push   bx
+   0xfffff048:	mov    bx,ax
+   0xfffff04b:	mov    ax,bx
+   0xfffff04e:	callw  0x7509
+   0xfffff052:	(bad)
+   0xfffff053:	jmp    DWORD PTR [esi-0x7b]
+   0xfffff056:	shl    BYTE PTR [ebp+0x8],0x66
+   0xfffff05a:	call   0xffff85ee
+   0xfffff05f:	jmp    0xfffff04b
+   0xfffff061:	pop    bx
+   0xfffff063:	retw
+   0xfffff065:	iret
+   0xfffff066:	push   bx
+   0xfffff068:	mov    bx,0x2710
+   0xfffff06c:	add    BYTE PTR [eax],al
+   0xfffff06e:	in     al,0x64
+   0xfffff070:	test   al,0x2
+   0xfffff072:	je     0xfffff09c
+   0xfffff074:	mov    ax,0x32
+   0xfffff078:	add    BYTE PTR [eax],al
+   0xfffff07a:	callw  0x7928
+   0xfffff07e:	(bad)
+   0xfffff07f:	jmp    DWORD PTR [esi+0x4b]
+   0xfffff082:	jne    0xfffff06e
+   0xfffff084:	mov    dx,0xd998
+   0xfffff088:	add    BYTE PTR [eax],al
+   0xfffff08a:	mov    ax,0x35
+   0xfffff08e:	add    BYTE PTR [eax],al
+   0xfffff090:	callw  0x7580
+   0xfffff094:	(bad)
+   0xfffff095:	jmp    DWORD PTR [esi-0x7d]
+   0xfffff098:	enter  0xebff,0x3
+   0xfffff09c:	xor    ax,ax
+   0xfffff09f:	pop    bx
+   0xfffff0a1:	retw
+   0xfffff0a3:	nop
+   0xfffff0a4:	add    BYTE PTR [eax],al
+   0xfffff0a6:	add    BYTE PTR [eax],al
+   0xfffff0a8:	add    BYTE PTR [eax],al
+   0xfffff0aa:	add    BYTE PTR [eax],al
+   0xfffff0ac:	add    BYTE PTR [eax],al
+   0xfffff0ae:	add    BYTE PTR [eax],al
+   0xfffff0b0:	add    BYTE PTR [eax],al
+   0xfffff0b2:	add    BYTE PTR [eax],al
+   0xfffff0b4:	add    BYTE PTR [eax],al
+   0xfffff0b6:	add    BYTE PTR [eax],al
+   0xfffff0b8:	add    BYTE PTR [eax],al
+   0xfffff0ba:	add    BYTE PTR [eax],al
+   0xfffff0bc:	add    BYTE PTR [eax],al
+   0xfffff0be:	add    BYTE PTR [eax],al
+   0xfffff0c0:	add    BYTE PTR [eax],al
+   0xfffff0c2:	add    BYTE PTR [eax],al
+   0xfffff0c4:	add    BYTE PTR [eax],al
+   0xfffff0c6:	add    BYTE PTR [eax],al
+   0xfffff0c8:	add    BYTE PTR [eax],al
+   0xfffff0ca:	add    BYTE PTR [eax],al
+   0xfffff0cc:	add    BYTE PTR [eax],al
+   0xfffff0ce:	add    BYTE PTR [eax],al
+   0xfffff0d0:	add    BYTE PTR [eax],al
+   0xfffff0d2:	add    BYTE PTR [eax],al
+   0xfffff0d4:	add    BYTE PTR [eax],al
+   0xfffff0d6:	add    BYTE PTR [eax],al
+   0xfffff0d8:	add    BYTE PTR [eax],al
+   0xfffff0da:	add    BYTE PTR [eax],al
+   0xfffff0dc:	add    BYTE PTR [eax],al
+   0xfffff0de:	add    BYTE PTR [eax],al
+   0xfffff0e0:	add    BYTE PTR [eax],al
+   0xfffff0e2:	add    BYTE PTR [eax],al
+   0xfffff0e4:	add    BYTE PTR [eax],al
+   0xfffff0e6:	add    BYTE PTR [eax],al
+   0xfffff0e8:	add    BYTE PTR [eax],al
+   0xfffff0ea:	add    BYTE PTR [eax],al
+   0xfffff0ec:	add    BYTE PTR [eax],al
+   0xfffff0ee:	add    BYTE PTR [eax],al
+   0xfffff0f0:	add    BYTE PTR [eax],al
+   0xfffff0f2:	add    BYTE PTR [eax],al
+   0xfffff0f4:	add    BYTE PTR [eax],al
+   0xfffff0f6:	add    BYTE PTR [eax],al
+   0xfffff0f8:	add    BYTE PTR [eax],al
+   0xfffff0fa:	add    BYTE PTR [eax],al
+   0xfffff0fc:	push   bp
+   0xfffff0fe:	push   di
+   0xfffff100:	push   si
+   0xfffff102:	push   bx
+   0xfffff104:	sub    sp,0x10
+   0xfffff108:	mov    bx,ax
+   0xfffff10b:	mov    al,BYTE PTR [bx+si+0x1d]
+   0xfffff10f:	cmp    al,0x86
+   0xfffff111:	je     0x3176f376
+   0xfffff117:	cmp    al,0x53
+   0xfffff119:	je     0x1476f1d9
+   0xfffff11f:	cmp    al,0x4f
+   0xfffff121:	je     0x523bf809
+   0xfffff127:	je     0x243bf1bf
+   0xfffff12d:	jne    0x5deaf804
+   0xfffff133:	cmp    al,0x7f
+   0xfffff135:	je     0x833bf2e5
+   0xfffff13b:	je     0x5f3bf31f
+   0xfffff141:	jne    0x9be8f804
+   0xfffff147:	add    BYTE PTR [ecx+edx*4],bh
+   0xfffff14a:	ja     0xfffff161
+   0xfffff14c:	cmp    al,0x90
+   0xfffff14e:	jae    0x873bf80e
+   0xfffff154:	je     0x883bf3c4
+   0xfffff15a:	je     0xa1e8f4fb
+   0xfffff160:	push   es
+   0xfffff161:	cmp    al,0xc1
+   0xfffff163:	je     0x1876f522
+   0xfffff169:	cmp    al,0xc0
+   0xfffff16b:	jne    0xc766f804
+   0xfffff171:	inc    ebx
+   0xfffff172:	add    al,BYTE PTR [eax]
+   0xfffff174:	lock mov ax,0xe6f5
+   0xfffff179:	add    BYTE PTR [eax],al
+   0xfffff17b:	mov    DWORD PTR [bp+di+0x10],eax
+   0xfffff17f:	jmp    0xfffff1bd
+   0xfffff181:	cmp    al,0xc2
+   0xfffff183:	je     0xe83bf535
+   0xfffff189:	je     0x72e8f72d
+   0xfffff18f:	push   es
+   0xfffff190:	mov    al,BYTE PTR [bp+di+0x1c]
+   0xfffff194:	cmp    al,0x1
+   0xfffff196:	je     0xfffff1b1
+   0xfffff198:	jb     0xfffff1ac
+   0xfffff19a:	cmp    al,0x2
+   0xfffff19c:	je     0xfffff1c9
+   0xfffff19e:	cmp    al,0x3
+   0xfffff1a0:	jne    0xc766f804
+   0xfffff1a6:	inc    ebx
+   0xfffff1a7:	adc    BYTE PTR [ebx],al
+   0xfffff1a9:	add    bl,ch
+   0xfffff1ab:	adc    DWORD PTR [esi+0x31],esp
+   0xfffff1ae:	shr    bl,0x6
+   0xfffff1b1:	mov    ax,0x1
+   0xfffff1b5:	add    BYTE PTR [eax],al
+   0xfffff1b7:	callw  0xec2b
+   0xfffff1bb:	(bad)
+   0xfffff1bc:	jmp    DWORD PTR [esi-0x77]
+   0xfffff1bf:	fsub   DWORD PTR [esi-0x18]
+   0xfffff1c2:	out    dx,al
+   0xfffff1c3:	lock (bad)
+   0xfffff1c5:	(bad)
+   0xfffff1c6:	jmp    0x92e3f80e
+   0xfffff1cb:	shr    al,1
+   0xfffff1cd:	and    ax,0x1
+   0xfffff1d1:	mov    BYTE PTR [bp+di+0x1c],al
+   0xfffff1d5:	jmp    0xfffff1bd
+   0xfffff1d7:	mov    ax,bx
+   0xfffff1da:	callw  0xb8be
+   0xfffff1de:	(bad)
+   0xfffff1df:	(bad)
+   0xfffff1e0:	jmp    0x662df80e
+   0xfffff1e5:	mov    eax,ds:0x8366602c
+   0xfffff1ea:	clc
+   0xfffff1eb:	add    DWORD PTR [ebx+ecx*1+0x66],esi
+   0xfffff1ef:	cmp    eax,0x2
+   0xfffff1f2:	je     0x9e8f2ad
+   0xfffff1f8:	push   es
+   0xfffff1f9:	mov    al,BYTE PTR [bp+di+0x1c]
+   0xfffff1fd:	cmp    al,0x2
+   0xfffff1ff:	je     0xfffff234
+   0xfffff201:	ja     0xfffff227
+   0xfffff203:	dec    al
+   0xfffff205:	jne    0x6666f804
+   0xfffff20b:	mov    DWORD PTR [ebx+0x1c],0x5f
+   0xfffff212:	mov    BYTE PTR [bp+di+0x18],0x2
+   0xfffff217:	and    DWORD PTR [bp+di+0x24],0xfffffffe
+   0xfffff21c:	mov    WORD PTR [si],0x2424
+   0xfffff222:	fadd   DWORD PTR [eax]
+   0xfffff224:	add    bl,ch
+   0xfffff226:	ss cmp al,0x18
+   0xfffff229:	je     0xfffff266
+   0xfffff22b:	cmp    al,0x19
+   0xfffff22d:	je     0xcee8f809
+   0xfffff233:	add    eax,0x43c76667
+   0xfffff238:	sbb    al,0x5f
+   0xfffff23a:	add    BYTE PTR [eax],al
+   0xfffff23c:	add    BYTE PTR [edi-0x39],ah
+   0xfffff23f:	inc    ebx
+   0xfffff240:	adc    BYTE PTR [edx],al
+   0xfffff242:	add    BYTE PTR [edi-0x39],ah
+   0xfffff245:	inc    ebx
+   0xfffff246:	sbb    BYTE PTR [ecx],al
+   0xfffff248:	add    al,0x67
+   0xfffff24a:	mov    DWORD PTR [ebx+0x14],0x83670000
+   0xfffff251:	arpl   WORD PTR [esi+edi*8],sp
+   0xfffff254:	mov    WORD PTR [si],0x4a24
+   0xfffff25a:	fadd   DWORD PTR [eax]
+   0xfffff25c:	add    BYTE PTR [esi-0x18],ah
+   0xfffff25f:	or     eax,DWORD PTR [ebx-0x59160001]
+   0xfffff265:	add    eax,0x28a1662e
+   0xfffff26a:	pusha
+   0xfffff26b:	mov    dx,WORD PTR cs:[esi]
+   0xfffff26f:	and    al,0x60
+   0xfffff271:	mov    di,dx
+   0xfffff274:	shr    di,0x1f
+   0xfffff278:	jne    0x8965f804
+   0xfffff27e:	(bad)
+   0xfffff27f:	shr    di,0x1f
+   0xfffff283:	jne    0x6666f804
+   0xfffff289:	mov    DWORD PTR [ebx+0x1c],0x5f
+   0xfffff290:	or     ah,0x5
+   0xfffff293:	shl    dx,0x4
+   0xfffff297:	or     ax,dx
+   0xfffff29a:	mov    WORD PTR [bp+di+0x10],ax
+   0xfffff29f:	mov    WORD PTR [bp+di+0x18],0x60
+   0xfffff2a6:	add    BYTE PTR [eax],al
+   0xfffff2a8:	jmp    0x8a66f7fd
+   0xfffff2ad:	inc    ebx
+   0xfffff2ae:	sbb    al,0x3c
+   0xfffff2b0:	inc    eax
+   0xfffff2b1:	je     0xfffff2c9
+   0xfffff2b3:	cmp    al,0x50
+   0xfffff2b5:	je     0xfffff2da
+   0xfffff2b7:	cmp    al,0x35
+   0xfffff2b9:	jne    0xc766f804
+   0xfffff2bf:	inc    ebx
+   0xfffff2c0:	sbb    al,0x5f
+   0xfffff2c2:	add    BYTE PTR [esi],ch
+   0xfffff2c4:	mov    al,ds:0xaeb6022
+   0xfffff2c9:	mov    DWORD PTR [bp+di+0x1c],0xa02e005f
+   0xfffff2d1:	and    DWORD PTR [eax+0x67],esp
+   0xfffff2d4:	mov    BYTE PTR [ebx+0x18],al
+   0xfffff2d7:	jmp    0xc766f7fd
+   0xfffff2dc:	inc    ebx
+   0xfffff2dd:	sbb    al,0x5f
+   0xfffff2df:	add    cl,ch
+   0xfffff2e1:	sbb    BYTE PTR ds:0x2ca1662e,al
+   0xfffff2e7:	pusha
+   0xfffff2e8:	cmp    ax,0x3
+   0xfffff2ec:	jne    0x8a66f804
+   0xfffff2f2:	inc    ebx
+   0xfffff2f3:	sbb    al,0x3c
+   0xfffff2f5:	add    dh,BYTE PTR [esp+edx*1+0x3c]
+   0xfffff2f9:	adc    al,0xf
+   0xfffff2fb:	test   DWORD PTR [eax*1+0x1c43c767],eax
+   0xfffff302:	jg     0xfffff304
+   0xfffff304:	mov    BYTE PTR [bp+di+0x10],0x0
+   0xfffff309:	jmp    0xc766f7fd
+   0xfffff30e:	inc    ebx
+   0xfffff30f:	sbb    al,0x7f
+   0xfffff311:	add    BYTE PTR [esi],ch
+   0xfffff313:	mov    al,ds:0x88676020
+   0xfffff318:	inc    ebx
+   0xfffff319:	adc    cl,ch
+   0xfffff31b:	fiadd  WORD PTR [edi+eiz*2]
+   0xfffff31e:	mov    al,BYTE PTR [ebx+0x1c]
+   0xfffff321:	test   al,al
+   0xfffff323:	je     0xfffff332
+   0xfffff325:	cmp    al,0x1
+   0xfffff327:	jne    0xfffff361
+   0xfffff329:	callw  0x6f51
+   0xfffff32d:	(bad)
+   0xfffff32e:	(bad)
+   0xfffff32f:	jmp    0x6666f7fd
+   0xfffff334:	movzx  ecx,WORD PTR [ebx+0x10]
+   0xfffff338:	movzx  dx,WORD PTR [bp+di+0x2]
+   0xfffff33e:	movzx  ax,WORD PTR [bp+di+0x18]
+   0xfffff344:	shl    ax,0x10
+   0xfffff348:	movzx  si,WORD PTR [bp+di+0x14]
+   0xfffff34e:	or     ax,si
+   0xfffff351:	callw  0x72f4
+   0xfffff355:	(bad)
+   0xfffff356:	jmp    DWORD PTR [esi-0x7b]
+   0xfffff359:	ror    BYTE PTR [edi],0x84
+   0xfffff35c:	popf
+   0xfffff35d:	add    al,0xe9
+   0xfffff35f:	mov    eax,ds:0x43c66704
+   0xfffff364:	sbb    eax,0x4b836786
+   0xfffff369:	and    al,0x1
+   0xfffff36b:	dec    ax
+   0xfffff36d:	mov    BYTE PTR [bp+di+0x1c],al
+   0xfffff371:	jmp    0xc666f80e
+   0xfffff376:	inc    esp
+   0xfffff377:	and    al,0xd
+   0xfffff379:	add    BYTE PTR [edx+edx*8+0x4c8d6667],cl
+   0xfffff380:	and    al,0xd
+   0xfffff382:	movzx  cx,cx
+   0xfffff386:	movzx  dx,dx
+   0xfffff38a:	movzx  ax,WORD PTR [bp+di+0x18]
+   0xfffff390:	shl    ax,0x10
+   0xfffff394:	movzx  si,WORD PTR [bp+di+0x14]
+   0xfffff39a:	or     ax,si
+   0xfffff39d:	callw  0x72f4
+   0xfffff3a1:	(bad)
+   0xfffff3a2:	jmp    DWORD PTR [esi-0x7b]
+   0xfffff3a5:	shl    BYTE PTR [eax+ecx*1+0x67],0xc6
+   0xfffff3aa:	inc    ebx
+   0xfffff3ab:	sbb    eax,0x457e983
+   0xfffff3b0:	cmp    BYTE PTR [si+0x24],0xd
+   0xfffff3b5:	add    BYTE PTR [edi],cl
+   0xfffff3b7:	test   DWORD PTR [ecx+0x4],eax
+   0xfffff3ba:	callw  0xb7bd
+   0xfffff3be:	(bad)
+   0xfffff3bf:	(bad)
+   0xfffff3c0:	jmp    0xfffff3b0
+   0xfffff3c2:	mov    ax,0x1
+   0xfffff3c6:	add    BYTE PTR [eax],al
+   0xfffff3c8:	callw  0xec2b
+   0xfffff3cc:	(bad)
+   0xfffff3cd:	jmp    DWORD PTR [esi-0x77]
+   0xfffff3d0:	lds    esp,FWORD PTR [edi+0x66]
+   0xfffff3d3:	movzx  eax,WORD PTR [ebx+0x8]
+   0xfffff3d7:	mov    edx,DWORD PTR [bp+di+0x2]
+   0xfffff3db:	mov    es,edx
+   0xfffff3dd:	movzx  si,dx
+   0xfffff3e1:	shl    si,0x4
+   0xfffff3e5:	add    si,ax
+   0xfffff3e8:	xor    di,di
+   0xfffff3eb:	shld   di,si,0x10
+   0xfffff3f0:	shl    si,0x10
+   0xfffff3f4:	mov    WORD PTR [si+0x24],di
+   0xfffff3f9:	or     BYTE PTR [esi-0x77],ah
+   0xfffff3fc:	mul    DWORD PTR [esi-0x7d]
+   0xfffff3ff:	iret
+   0xfffff400:	das
+   0xfffff401:	mov    cx,WORD PTR [si+0x24]
+   0xfffff406:	or     BYTE PTR [eax+0x672693cd],al
+   0xfffff40c:	mov    WORD PTR [eax+0x8],di
+   0xfffff410:	mov    WORD PTR es:[bx+si+0xc],cx
+   0xfffff416:	mov    cx,WORD PTR cs:[esi]
+   0xfffff41a:	mov    BYTE PTR [ecx+0x66],ah
+   0xfffff41d:	dec    ecx
+   0xfffff41e:	setne  cl
+   0xfffff421:	movzx  cx,cl
+   0xfffff425:	dec    cx
+   0xfffff427:	and    cx,0x0
+   0xfffff42c:	pop    DWORD PTR [eax]
+   0xfffff42e:	mov    es,edx
+   0xfffff430:	mov    si,cx
+   0xfffff433:	or     si,0x9b0f
+   0xfffff438:	add    BYTE PTR [eax],al
+   0xfffff43a:	mov    di,0xffff
+   0xfffff43e:	add    BYTE PTR [eax],al
+   0xfffff440:	mov    WORD PTR es:[bx+si+0x20],di
+   0xfffff446:	mov    WORD PTR es:[bx+si+0x24],si
+   0xfffff44c:	mov    esi,ss
+   0xfffff44e:	mov    es,edx
+   0xfffff450:	or     ch,0x93
+   0xfffff453:	movzx  si,si
+   0xfffff457:	shl    si,0x4
+   0xfffff45b:	xor    di,di
+   0xfffff45e:	shld   di,si,0x10
+   0xfffff463:	shl    si,0x10
+   0xfffff467:	mov    WORD PTR [si+0x24],si
+   0xfffff46c:	add    al,0x67
+   0xfffff46e:	mov    WORD PTR [esp+0x8],di
+   0xfffff473:	mov    di,si
+   0xfffff476:	or     di,0xffff
+   0xfffff47b:	add    BYTE PTR [eax],al
+   0xfffff47d:	or     cx,WORD PTR [si+0x24]
+   0xfffff482:	or     BYTE PTR [esi],ah
+   0xfffff484:	mov    WORD PTR [bx+si+0x28],di
+   0xfffff489:	mov    WORD PTR es:[bx+si+0x2c],cx
+   0xfffff48f:	mov    es,edx
+   0xfffff491:	xor    si,si
+   0xfffff494:	mov    ecx,DWORD PTR [bp+di+0x18]
+   0xfffff498:	mov    di,si
+   0xfffff49b:	lgdtd  es:[bx+si+0x8]
+   0xfffff4a1:	lidtd  cs:[esi]
+   0xfffff4a5:	js     0xfffff508
+   0xfffff4a7:	mov    eax,cr0
+   0xfffff4aa:	or     ax,0x1
+   0xfffff4ae:	mov    cr0,eax
+   0xfffff4b1:	jmp    0x10b8:0x20f4b6
+   0xfffff4b8:	add    BYTE PTR [esi+0x18b8d8],cl
+   0xfffff4be:	mov    es,eax
+   0xfffff4c0:	test   ecx,0x1b750001
+   0xfffff4c6:	shr    ecx,1
+   0xfffff4c8:	rep movs WORD PTR es:[edi],WORD PTR ds:[esi]
+   0xfffff4cb:	mov    eax,0xd88e0028
+   0xfffff4d0:	mov    es,eax
+   0xfffff4d2:	mov    eax,cr0
+   0xfffff4d5:	and    ax,0xfffe
+   0xfffff4d9:	mov    cr0,eax
+   0xfffff4dc:	jmp    0xa5f3:0xf000f4e5
+   0xfffff4e3:	jmp    0xfffff4cb
+   0xfffff4e5:	lidtd  cs:[esi]
+   0xfffff4e9:	and    BYTE PTR [ecx-0x74],0xd0
+   0xfffff4ed:	mov    ds,eax
+   0xfffff4ef:	mov    ax,bp
+   0xfffff4f2:	movzx  ax,al
+   0xfffff4f6:	jmp    0x662ef1b9
+   0xfffff4fb:	mov    eax,ds:0x3d665d00
+   0xfffff500:	add    BYTE PTR [eax],al
+   0xfffff502:	add    BYTE PTR [esi+esi*2],al
+   0xfffff505:	or     DWORD PTR [edi-0x39],esp
+   0xfffff508:	inc    ebx
+   0xfffff509:	sbb    al,0x0
+   0xfffff50b:	cld
+   0xfffff50c:	jmp    0x2d65f7fd
+   0xfffff511:	add    BYTE PTR [eax],al
+   0xfffff513:	adc    BYTE PTR [eax],al
+   0xfffff515:	shr    ax,0xa
+   0xfffff519:	mov    DWORD PTR [bp+di+0x1c],eax
+   0xfffff51d:	jmp    0xb865f7fd
+   0xfffff522:	inc    eax
+   0xfffff523:	add    BYTE PTR [eax],al
+   0xfffff525:	add    BYTE PTR [esi+0xea126c0],cl
+   0xfffff52b:	add    BYTE PTR [edi-0x77],ah
+   0xfffff52e:	inc    ebx
+   0xfffff52f:	add    ch,cl
+   0xfffff531:	enter  0x6702,0x8a
+   0xfffff535:	inc    ebx
+   0xfffff536:	sbb    al,0x3c
+   0xfffff538:	add    ecx,DWORD PTR [edi]
+   0xfffff53a:	test   BYTE PTR [eax+eax*1+0x13c1077],cl
+   0xfffff541:	je     0x6666f644
+   0xfffff547:	movzx  eax,BYTE PTR [ebx+0x11]
+   0xfffff54b:	jbe    0xfffff568
+   0xfffff54d:	jmp    0xfffff5a9
+   0xfffff54f:	cmp    al,0x5
+   0xfffff551:	je     0x820ef614
+   0xfffff557:	xchg   esp,eax
+   0xfffff558:	add    BYTE PTR [esi+eax*1],bh
+   0xfffff55b:	je     0x73bf650
+   0xfffff561:	je     0xbbe8f6be
+   0xfffff567:	add    DWORD PTR [eax+eax*8-0x3701f88c],eax
+   0xfffff56e:	je     0xfffff57f
+   0xfffff570:	jmp    0x3165f725
+   0xfffff575:	shl    BYTE PTR [esi-0x48],cl
+   0xfffff578:	cmc
+   0xfffff579:	add    BYTE PTR [eax],al
+   0xfffff57b:	add    cl,ch
+   0xfffff57d:	sub    BYTE PTR [ecx],al
+   0xfffff57f:	mov    ax,0x40
+   0xfffff583:	add    BYTE PTR [eax],al
+   0xfffff585:	mov    es,eax
+   0xfffff587:	mov    eax,es:0xc08e000e
+   0xfffff58d:	mov    al,es:0xc0840027
+   0xfffff593:	js     0xfffff59d
+   0xfffff595:	mov    BYTE PTR [bp+di+0x1d],0x5
+   0xfffff59a:	jmp    0x3165f809
+   0xfffff59f:	shl    BYTE PTR [esi-0x48],cl
+   0xfffff5a2:	hlt
+   0xfffff5a3:	add    BYTE PTR [eax],al
+   0xfffff5a5:	add    cl,ch
+   0xfffff5a7:	inc    BYTE PTR [eax]
+   0xfffff5a9:	cmp    al,0x6
+   0xfffff5ab:	ja     0xfffff5d1
+   0xfffff5ad:	mov    al,BYTE PTR cs:[bx+si-0x2618]
+   0xfffff5b3:	add    BYTE PTR [eax],al
+   0xfffff5b5:	mov    BYTE PTR [si+0x24],al
+   0xfffff5b9:	or     eax,0x548d6667
+   0xfffff5be:	and    al,0xd
+   0xfffff5c0:	mov    ax,0x10f3
+   0xfffff5c4:	add    BYTE PTR [eax],al
+   0xfffff5c6:	jmp    0x8a66f6a9
+   0xfffff5cb:	inc    ebx
+   0xfffff5cc:	adc    DWORD PTR [ebx+eax*1],edi
+   0xfffff5cf:	jbe    0xfffff5d9
+   0xfffff5d1:	mov    BYTE PTR [bp+di+0x1d],0x2
+   0xfffff5d6:	jmp    0x8866f809
+   0xfffff5db:	inc    esp
+   0xfffff5dc:	and    al,0xd
+   0xfffff5de:	lea    dx,[si+0x24]
+   0xfffff5e3:	or     eax,0x10e8b866
+   0xfffff5e8:	add    BYTE PTR [eax],al
+   0xfffff5ea:	jmp    0x6666f6a9
+   0xfffff5ef:	lea    edx,[esp+0xd]
+   0xfffff5f3:	mov    ax,0x2f2
+   0xfffff5f7:	add    BYTE PTR [eax],al
+   0xfffff5f9:	callw  0x942f
+   0xfffff5fd:	(bad)
+   0xfffff5fe:	jmp    DWORD PTR [esi-0x7b]
+   0xfffff601:	ror    BYTE PTR [edi],0x85
+   0xfffff604:	scas   al,BYTE PTR es:[edi]
+   0xfffff605:	add    BYTE PTR [edi-0x76],ah
+   0xfffff608:	inc    esp
+   0xfffff609:	and    al,0xd
+   0xfffff60b:	mov    BYTE PTR [bp+di+0x11],al
+   0xfffff60f:	jmp    0x8067f1bf
+   0xfffff614:	jnp    0xfffff627
+   0xfffff616:	add    esi,DWORD PTR [eax+ecx*1+0x67]
+   0xfffff61a:	mov    BYTE PTR [ebx+0x1d],0x3
+   0xfffff61e:	jmp    0xb865f809
+   0xfffff623:	inc    eax
+   0xfffff624:	add    BYTE PTR [eax],al
+   0xfffff626:	add    BYTE PTR [esi+0xea126c0],cl
+   0xfffff62c:	add    BYTE PTR [esi-0x2dce9940],cl
+   0xfffff632:	mov    BYTE PTR es:[esi],dl
+   0xfffff635:	add    BYTE PTR es:[edi-0x76],ah
+   0xfffff639:	push   ebx
+   0xfffff63a:	adc    DWORD PTR [esi+0x168826c0],ecx
+   0xfffff640:	daa
+   0xfffff641:	add    BYTE PTR [esi-0x77],ah
+   0xfffff644:	fsub   DWORD PTR [esi-0x18]
+   0xfffff647:	rcr    BYTE PTR [esi-0x41160001],0x1
+   0xfffff64e:	mov    al,BYTE PTR [bp+di+0x11]
+   0xfffff652:	cmp    al,0x1
+   0xfffff654:	je     0xfffff69e
+   0xfffff656:	jb     0xfffff669
+   0xfffff658:	cmp    al,0x2
+   0xfffff65a:	jne    0x3165f725
+   0xfffff660:	shl    BYTE PTR [esi-0x48],cl
+   0xfffff663:	out    0x0,eax
+   0xfffff665:	add    BYTE PTR [eax],al
+   0xfffff667:	jmp    0xfffff6a7
+   0xfffff669:	lea    dx,[si+0x24]
+   0xfffff66e:	or     eax,0x3e9b866
+   0xfffff673:	add    BYTE PTR [eax],al
+   0xfffff675:	callw  0x942f
+   0xfffff679:	(bad)
+   0xfffff67a:	jmp    DWORD PTR [esi-0x7b]
+   0xfffff67d:	shl    BYTE PTR [ebp+0x34],0x67
+   0xfffff681:	mov    al,BYTE PTR [esp+0xd]
+   0xfffff685:	mov    BYTE PTR [bp+di+0x10],al
+   0xfffff689:	mov    al,BYTE PTR [si+0x24]
+   0xfffff68d:	push   cs
+   0xfffff68e:	mov    BYTE PTR [bp+di+0x18],al
+   0xfffff692:	mov    al,BYTE PTR [si+0x24]
+   0xfffff696:	packuswb mm1,QWORD PTR [eax+0x1fe91443]
+   0xfffff69d:	sti
+   0xfffff69e:	xor    dx,dx
+   0xfffff6a1:	mov    ax,0xe6
+   0xfffff6a5:	add    BYTE PTR [eax],al
+   0xfffff6a7:	callw  0x942f
+   0xfffff6ab:	(bad)
+   0xfffff6ac:	jmp    DWORD PTR [esi-0x7b]
+   0xfffff6af:	ror    BYTE PTR [edi],0x84
+   0xfffff6b2:	or     ebx,edi
+   0xfffff6b4:	mov    BYTE PTR [bp+di+0x1d],0x4
+   0xfffff6b9:	jmp    0x6666f809
+   0xfffff6be:	movzx  eax,WORD PTR [ebx+0x2]
+   0xfffff6c2:	shl    ax,0x10
+   0xfffff6c6:	movzx  dx,WORD PTR [bp+di+0x10]
+   0xfffff6cc:	mov    cx,0x40
+   0xfffff6d0:	add    BYTE PTR [eax],al
+   0xfffff6d2:	mov    es,ecx
+   0xfffff6d4:	mov    esi,DWORD PTR es:[esi]
+   0xfffff6d7:	push   cs
+   0xfffff6d8:	add    BYTE PTR [esi+0xe8a26c6],cl
+   0xfffff6de:	daa
+   0xfffff6df:	add    BYTE PTR [esi-0x77],ah
+   0xfffff6e2:	xlat   BYTE PTR ds:[ebx]
+   0xfffff6e3:	or     di,ax
+   0xfffff6e6:	jne    0xfffff70d
+   0xfffff6e8:	test   cl,cl
+   0xfffff6ea:	jns    0xfffff711
+   0xfffff6ec:	and    cx,0x7f
+   0xfffff6f0:	mov    WORD PTR [si+0x24],cx
+   0xfffff6f5:	add    al,0x66
+   0xfffff6f7:	xor    edx,edx
+   0xfffff6f9:	mov    ax,0xf5
+   0xfffff6fd:	add    BYTE PTR [eax],al
+   0xfffff6ff:	callw  0x942f
+   0xfffff703:	(bad)
+   0xfffff704:	jmp    DWORD PTR [edi+0x66]
+   0xfffff707:	mov    ecx,DWORD PTR [esp+0x4]
+   0xfffff70b:	jmp    0xfffff711
+   0xfffff70d:	or     cx,0xff80
+   0xfffff711:	mov    es,esi
+   0xfffff713:	mov    BYTE PTR es:[esi],cl
+   0xfffff716:	daa
+   0xfffff717:	add    BYTE PTR [esi-0x7699d93a],cl
+   0xfffff71d:	and    al,BYTE PTR ds:[eax]
+   0xfffff720:	jmp    0xc667f1bf
+   0xfffff725:	inc    ebx
+   0xfffff726:	sbb    eax,0xdce901
+   0xfffff72b:	mov    al,BYTE PTR [bp+di+0x1c]
+   0xfffff72f:	cmp    al,0x1
+   0xfffff731:	je     0xfffff73a
+   0xfffff733:	cmp    al,0x20
+   0xfffff735:	je     0xfffff783
+   0xfffff737:	jmp    0x662df804
+   0xfffff73c:	mov    eax,ds:0x3d665d00
+   0xfffff741:	add    BYTE PTR [eax],al
+   0xfffff743:	add    BYTE PTR [ecx],al
+   0xfffff745:	jbe    0xfffff75d
+   0xfffff747:	mov    DWORD PTR [bp+di+0x18],0x2d663c00
+   0xfffff74f:	add    BYTE PTR [eax],al
+   0xfffff751:	add    BYTE PTR [ecx],al
+   0xfffff753:	shr    ax,0x10
+   0xfffff757:	mov    DWORD PTR [bp+di+0x14],eax
+   0xfffff75b:	jmp    0xfffff771
+   0xfffff75d:	sub    ax,0x0
+   0xfffff761:	adc    BYTE PTR [eax],al
+   0xfffff763:	shr    ax,0xa
+   0xfffff767:	mov    DWORD PTR [bp+di+0x18],eax
+   0xfffff76b:	mov    DWORD PTR [bp+di+0x14],0x8b670000
+   0xfffff773:	inc    ebx
+   0xfffff774:	sbb    BYTE PTR [edi-0x77],ah
+   0xfffff777:	inc    ebx
+   0xfffff778:	sbb    al,0x67
+   0xfffff77a:	mov    eax,DWORD PTR [ebx+0x14]
+   0xfffff77d:	mov    DWORD PTR [bp+di+0x10],eax
+   0xfffff781:	jmp    0xfffff7fb
+   0xfffff783:	mov    dx,WORD PTR cs:[esi]
+   0xfffff787:	add    al,0x5d
+   0xfffff789:	cmp    WORD PTR [bp+di+0x14],0x4150
+   0xfffff790:	dec    ebp
+   0xfffff791:	push   ebx
+   0xfffff792:	jne    0xfffff802
+   0xfffff794:	movzx  si,WORD PTR [bp+di+0x10]
+   0xfffff79a:	cmp    si,dx
+   0xfffff79d:	jge    0xfffff802
+   0xfffff79f:	cmp    WORD PTR [bp+di+0x18],0x13
+   0xfffff7a5:	jbe    0xfffff802
+   0xfffff7a7:	mov    ebp,cs
+   0xfffff7a9:	movzx  di,WORD PTR [bp+di+0x4]
+   0xfffff7af:	mov    es,WORD PTR [bp+di+0x2]
+   0xfffff7b3:	imul   si,si,0x14
+   0xfffff7b7:	add    si,0x5d08
+   0xfffff7bc:	add    BYTE PTR [eax],al
+   0xfffff7be:	mov    cx,0x14
+   0xfffff7c2:	add    BYTE PTR [eax],al
+   0xfffff7c4:	mov    eax,ds
+   0xfffff7c6:	mov    ds,ebp
+   0xfffff7c8:	rep movs BYTE PTR es:[edi],BYTE PTR ds:[esi]
+   0xfffff7ca:	mov    ds,eax
+   0xfffff7cc:	movzx  ax,WORD PTR [bp+di+0x10]
+   0xfffff7d2:	dec    dx
+   0xfffff7d4:	cmp    ax,dx
+   0xfffff7d7:	jne    0xfffff7e4
+   0xfffff7d9:	mov    WORD PTR [bp+di+0x10],0x0
+   0xfffff7e0:	add    BYTE PTR [eax],al
+   0xfffff7e2:	jmp    0xfffff7e9
+   0xfffff7e4:	inc    WORD PTR [bp+di+0x10]
+   0xfffff7e9:	mov    WORD PTR [bp+di+0x1c],0x4150
+   0xfffff7f0:	dec    ebp
+   0xfffff7f1:	push   ebx
+   0xfffff7f2:	mov    WORD PTR [bp+di+0x18],0x14
+   0xfffff7f9:	add    BYTE PTR [eax],al
+   0xfffff7fb:	and    DWORD PTR [bp+di+0x24],0xfffffffe
+   0xfffff800:	jmp    0xfffff80c
+   0xfffff802:	mov    BYTE PTR [bp+di+0x1d],0x86
+   0xfffff807:	or     DWORD PTR [bp+di+0x24],0x1
+   0xfffff80c:	add    sp,0x10
+   0xfffff810:	pop    bx
+   0xfffff812:	pop    si
+   0xfffff814:	pop    di
+   0xfffff816:	pop    bp
+   0xfffff818:	retw
+   0xfffff81a:	cmp    al,0x63
+   0xfffff81c:	ja     0xfffff83e
+   0xfffff81e:	movzx  ax,al
+   0xfffff822:	mov    eax,DWORD PTR cs:[si+0x0]
+   0xfffff828:	fiadd  DWORD PTR [eax]
+   0xfffff82a:	add    BYTE PTR [ebp+0x660f74c0],al
+   0xfffff830:	movzx  ecx,cl
+   0xfffff833:	movzx  dx,dl
+   0xfffff837:	movzx  ax,ax
+   0xfffff83b:	jmp    0xc3668434
+   0xfffff840:	nop
+   0xfffff841:	pushw  0x79f4
+   0xfffff845:	add    BYTE PTR [eax],al
+   0xfffff847:	jmp    0xf0e9d3a6
+   0xfffff84c:	mul    DWORD PTR [esi+0x68]
+   0xfffff84f:	pop    es
+   0xfffff850:	jp     0xfffff852
+   0xfffff852:	add    cl,ch
+   0xfffff854:	dec    esi
+   0xfffff855:	fucomi st,st(1)
+   0xfffff857:	rol    BYTE PTR [bx+si-0x7604],0xf
+   0xfffff85d:	test   BYTE PTR [edi],dl
+   0xfffff85f:	fisub  DWORD PTR [esi+0x68]
+   0xfffff862:	cld
+   0xfffff863:	lock add BYTE PTR [eax],al
+   0xfffff866:	jmp    0x5566d3a6
+   0xfffff86b:	push   di
+   0xfffff86d:	push   si
+   0xfffff86f:	push   bx
+   0xfffff871:	push   cx
+   0xfffff873:	mov    di,ax
+   0xfffff876:	mov    bx,dx
+   0xfffff879:	mov    al,BYTE PTR cs:[bx]
+   0xfffff87d:	test   al,al
+   0xfffff87f:	je     0x253bfa59
+   0xfffff885:	je     0xfffff88f
+   0xfffff887:	mov    edx,DWORD PTR cs:[esi]
+   0xfffff88a:	cld
+   0xfffff88b:	pop    edi
+   0xfffff88c:	jmp    0x6666fa4d
+   0xfffff891:	lea    esi,[edi+0x1]
+   0xfffff894:	mov    BYTE PTR [si+0x24],0x3
+   0xfffff899:	and    BYTE PTR [esi+0x31],ah
+   0xfffff89c:	shr    BYTE PTR [esi],cl
+   0xfffff89e:	mov    al,BYTE PTR ds:0x8867
+   0xfffff8a3:	inc    esp
+   0xfffff8a4:	and    al,0x2
+   0xfffff8a6:	mov    cl,al
+   0xfffff8a8:	lea    bp,[bx+si-0x30]
+   0xfffff8ad:	mov    ax,bp
+   0xfffff8b0:	cmp    al,0x9
+   0xfffff8b2:	ja     0xfffff8de
+   0xfffff8b4:	cmp    cl,0x30
+   0xfffff8b7:	jne    0xfffff8be
+   0xfffff8b9:	test   dx,dx
+   0xfffff8bc:	je     0xfffff8d1
+   0xfffff8be:	imul   dx,dx,0xa
+   0xfffff8c2:	movsx  ax,BYTE PTR [si+0x24]
+   0xfffff8c8:	add    ah,BYTE PTR [edi+0x66]
+   0xfffff8cb:	lea    edx,[edx+eax*1-0x30]
+   0xfffff8cf:	jmp    0xfffff8da
+   0xfffff8d1:	mov    BYTE PTR [si+0x24],0x3
+   0xfffff8d6:	xor    BYTE PTR [esi+0x31],ah
+   0xfffff8d9:	shl    BYTE PTR [esi+0x46],cl
+   0xfffff8dc:	jmp    0xfffff89d
+   0xfffff8de:	mov    bp,si
+   0xfffff8e1:	xor    ax,ax
+   0xfffff8e4:	cmp    cl,0x6c
+   0xfffff8e7:	jne    0xfffff900
+   0xfffff8e9:	inc    si
+   0xfffff8eb:	mov    cl,BYTE PTR cs:0xf980
+   0xfffff8f1:	ins    BYTE PTR es:[edi],dx
+   0xfffff8f2:	jne    0xfffff900
+   0xfffff8f4:	lea    si,[di+0x2]
+   0xfffff8f9:	mov    cl,BYTE PTR cs:[di+0x2]
+   0xfffff8fe:	mov    al,0x1
+   0xfffff900:	cmp    cl,0x64
+   0xfffff903:	je     0xfffff961
+   0xfffff905:	jg     0xfffff927
+   0xfffff907:	cmp    cl,0x2e
+   0xfffff90a:	je     0xf97ffa05
+   0xfffff910:	arpl   WORD PTR [edi],cx
+   0xfffff912:	test   dl,bl
+   0xfffff914:	add    BYTE PTR [eax-0x7af0da07],al
+   0xfffff91a:	sub    BYTE PTR [ecx],al
+   0xfffff91c:	mov    edx,DWORD PTR cs:[esi]
+   0xfffff91f:	cld
+   0xfffff920:	pop    edi
+   0xfffff921:	mov    al,0x25
+   0xfffff923:	out    dx,al
+   0xfffff924:	jmp    0xf97ffa51
+   0xfffff929:	jae    0xfffff93a
+   0xfffff92b:	test   BYTE PTR [edx],al
+   0xfffff92d:	add    DWORD PTR [edi+0x24],edi
+   0xfffff930:	cmp    cl,0x70
+   0xfffff933:	jne    0x6666fa46
+   0xfffff939:	lea    edi,[ebx+0x4]
+   0xfffff93c:	mov    edx,DWORD PTR cs:[esi]
+   0xfffff93f:	cld
+   0xfffff940:	pop    edi
+   0xfffff941:	mov    al,0x30
+   0xfffff943:	out    dx,al
+   0xfffff944:	mov    al,0x78
+   0xfffff946:	out    dx,al
+   0xfffff947:	mov    dx,0x8
+   0xfffff94b:	add    BYTE PTR [eax],al
+   0xfffff94d:	mov    ax,WORD PTR [bp+di]
+   0xfffff951:	jmp    0xf97ff9d9
+   0xfffff956:	jne    0xfffff9cc
+   0xfffff958:	das
+   0xfffff959:	cmp    cl,0x78
+   0xfffff95c:	je     0xfffff9a6
+   0xfffff95e:	jmp    0x6666fa46
+   0xfffff963:	mov    ecx,DWORD PTR [ebx]
+   0xfffff965:	test   al,al
+   0xfffff967:	jne    0xfffff96f
+   0xfffff969:	add    bx,0x4
+   0xfffff96d:	jmp    0xfffff973
+   0xfffff96f:	add    bx,0x8
+   0xfffff973:	test   cx,cx
+   0xfffff976:	jns    0xfffff983
+   0xfffff978:	mov    edx,DWORD PTR cs:[esi]
+   0xfffff97b:	cld
+   0xfffff97c:	pop    edi
+   0xfffff97d:	mov    al,0x2d
+   0xfffff97f:	out    dx,al
+   0xfffff980:	neg    cx
+   0xfffff983:	mov    ax,cx
+   0xfffff986:	jmp    0xfffff99d
+   0xfffff988:	mov    dx,WORD PTR [bp+di]
+   0xfffff98c:	test   al,al
+   0xfffff98e:	jne    0xfffff996
+   0xfffff990:	add    bx,0x4
+   0xfffff994:	jmp    0xfffff99a
+   0xfffff996:	add    bx,0x8
+   0xfffff99a:	mov    ax,dx
+   0xfffff99d:	callw  0x7525
+   0xfffff9a1:	(bad)
+   0xfffff9a2:	(bad)
+   0xfffff9a3:	jmp    0x6666fa51
+   0xfffff9a8:	mov    ebp,DWORD PTR [ebx]
+   0xfffff9aa:	test   al,al
+   0xfffff9ac:	movsx  cx,BYTE PTR [si+0x24]
+   0xfffff9b2:	add    esi,DWORD PTR [edx+ebp*1+0x67]
+   0xfffff9b6:	lea    di,[ebx+0x8]
+   0xfffff9ba:	mov    ax,WORD PTR [bp+di+0x4]
+   0xfffff9bf:	test   ax,ax
+   0xfffff9c2:	je     0xfffff9e4
+   0xfffff9c4:	sub    dx,0x8
+   0xfffff9c8:	callw  0x6ef4
+   0xfffff9cc:	(bad)
+   0xfffff9cd:	jmp    DWORD PTR [esi-0x46]
+   0xfffff9d0:	or     BYTE PTR [eax],al
+   0xfffff9d2:	add    BYTE PTR [eax],al
+   0xfffff9d4:	mov    ax,bp
+   0xfffff9d7:	callw  0x6e4a
+   0xfffff9db:	(bad)
+   0xfffff9dc:	(bad)
+   0xfffff9dd:	jmp    0xfffffa3f
+   0xfffff9df:	lea    di,[bp+di+0x4]
+   0xfffff9e4:	mov    ax,bp
+   0xfffff9e7:	callw  0x6ef4
+   0xfffff9eb:	(bad)
+   0xfffff9ec:	(bad)
+   0xfffff9ed:	jmp    0xfffffa3f
+   0xfffff9ef:	lea    cx,[bp+di+0x4]
+   0xfffff9f4:	mov    edx,DWORD PTR cs:[esi]
+   0xfffff9f7:	cld
+   0xfffff9f8:	pop    edi
+   0xfffff9f9:	mov    ax,WORD PTR [bp+di]
+   0xfffff9fd:	out    dx,al
+   0xfffff9fe:	mov    bx,cx
+   0xfffffa01:	jmp    0xfffffa4f
+   0xfffffa03:	lea    bp,[bp+0x1]
+   0xfffffa08:	mov    al,BYTE PTR cs:[bp+0x1]
+   0xfffffa0d:	cmp    al,0x73
+   0xfffffa0f:	jne    0xfffffa4f
+   0xfffffa11:	lea    di,[bp+di+0x4]
+   0xfffffa16:	mov    cx,WORD PTR [bp+di]
+   0xfffffa1a:	mov    al,BYTE PTR [bx+di]
+   0xfffffa1d:	test   al,al
+   0xfffffa1f:	je     0xfffffa2b
+   0xfffffa21:	mov    edx,DWORD PTR cs:[esi]
+   0xfffffa24:	cld
+   0xfffffa25:	pop    edi
+   0xfffffa26:	out    dx,al
+   0xfffffa27:	inc    cx
+   0xfffffa29:	jmp    0xfffffa1a
+   0xfffffa2b:	mov    si,bp
+   0xfffffa2e:	jmp    0xfffffa3f
+   0xfffffa30:	lea    di,[bp+di+0x4]
+   0xfffffa35:	mov    ax,WORD PTR [bp+di]
+   0xfffffa39:	callw  0x6f3a
+   0xfffffa3d:	(bad)
+   0xfffffa3e:	jmp    DWORD PTR [esi-0x77]
+   0xfffffa41:	sti
+   0xfffffa42:	jmp    0xfffffa4f
+   0xfffffa44:	mov    edx,DWORD PTR cs:[esi]
+   0xfffffa47:	cld
+   0xfffffa48:	pop    edi
+   0xfffffa49:	mov    al,0x25
+   0xfffffa4b:	out    dx,al
+   0xfffffa4c:	mov    si,di
+   0xfffffa4f:	lea    di,[bp+0x1]
+   0xfffffa54:	jmp    0x5866f87b
+   0xfffffa59:	pop    bx
+   0xfffffa5b:	pop    si
+   0xfffffa5d:	pop    di
+   0xfffffa5f:	pop    bp
+   0xfffffa61:	retw
+   0xfffffa63:	callw  0x74ab
+   0xfffffa67:	(bad)
+   0xfffffa68:	(bad)
+   0xfffffa69:	jmp    0x9066f048
+   0xfffffa6e:	add    BYTE PTR [eax],al
+   0xfffffa70:	add    BYTE PTR [eax],al
+   0xfffffa72:	add    BYTE PTR [eax],al
+   0xfffffa74:	add    BYTE PTR [eax],al
+   0xfffffa76:	jle    0xfffff9f9
+   0xfffffa78:	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+   0xfffffa79:	cmp    DWORD PTR [ebp+0x7e7e8199],0xc3ffdbff
+   0xfffffa83:	out    0xff,eax
+   0xfffffa85:	jle    0xfffffaf3
+   0xfffffa87:	(bad)
+   0xfffffa88:	(bad)
+   0xfffffa89:	(bad)
+   0xfffffa8a:	jl     0xfffffac4
+   0xfffffa8c:	adc    BYTE PTR [eax],al
+   0xfffffa8e:	adc    BYTE PTR [eax],bh
+   0xfffffa90:	jl     0xfffffa90
+   0xfffffa92:	jl     0xfffffacc
+   0xfffffa94:	adc    BYTE PTR [eax],al
+   0xfffffa96:	cmp    BYTE PTR [eax+edi*1-0x2],bh
+   0xfffffa9a:	(bad)
+   0xfffffa9b:	jl     0xfffffad5
+   0xfffffa9d:	jl     0xfffffaaf
+   0xfffffa9f:	adc    BYTE PTR [eax],bh
+   0xfffffaa1:	jl     0xfffffaa1
+   0xfffffaa3:	jl     0xfffffadd
+   0xfffffaa5:	jl     0xfffffaa7
+   0xfffffaa7:	add    BYTE PTR [eax],bl
+   0xfffffaa9:	cmp    al,0x3c
+   0xfffffaab:	sbb    BYTE PTR [eax],al
+   0xfffffaad:	add    bh,bh
+   0xfffffaaf:	jmp    edi
+   0xfffffab1:	ret
+   0xfffffab2:	ret
+   0xfffffab3:	out    0xff,eax
+   0xfffffab5:	inc    DWORD PTR [eax]
+   0xfffffab7:	cmp    al,0x66
+   0xfffffab9:	inc    edx
+   0xfffffaba:	inc    edx
+   0xfffffabb:	data16 cmp al,0x0
+   0xfffffabe:	inc    ebx
+   0xfffffac0:	cdq
+   0xfffffac1:	mov    ebp,0xffc399bd
+   0xfffffac6:	sysret
+   0xfffffac8:	(bad)
+   0xfffffaca:	int3
+   0xfffffacb:	int3
+   0xfffffacc:	int3
+   0xfffffacd:	js     0xfffffb0b
+   0xfffffacf:	data16 data16 data16 cmp al,0x18
+   0xfffffad4:	jle    0xfffffaee
+   0xfffffad6:	aas
+   0xfffffad7:	xor    edi,DWORD PTR [edi]
+   0xfffffad9:	xor    BYTE PTR [eax],dh
+   0xfffffadb:	jo     0xfffffacd
+   0xfffffadd:	loopne 0xfffffb5e
+   0xfffffadf:	arpl   WORD PTR [edi+0x63],di
+   0xfffffae2:	arpl   WORD PTR [edi-0x1a],sp
+   0xfffffae5:	rcr    BYTE PTR [ecx-0x1818c3a6],0x3c
+   0xfffffaec:	pop    edx
+   0xfffffaed:	cdq
+   0xfffffaee:	and    al,0xf8
+   0xfffffaf1:	(bad)
+   0xfffffaf2:	clc
+   0xfffffaf3:	loopne 0xfffffa75
+   0xfffffaf5:	add    BYTE PTR [edx],al
+   0xfffffaf7:	push   cs
+   0xfffffaf8:	ds (bad)
+   0xfffffafa:	ds push cs
+   0xfffffafc:	add    al,BYTE PTR [eax]
+   0xfffffafe:	sbb    BYTE PTR [esi+edi*2],bh
+   0xfffffb01:	sbb    BYTE PTR [eax],bl
+   0xfffffb03:	jle    0xfffffb41
+   0xfffffb05:	sbb    BYTE PTR [esi+0x66],ah
+   0xfffffb08:	data16 data16 data16 add BYTE PTR [esi+0x0],ah
+   0xfffffb0e:	jg     0xfffffaeb
+   0xfffffb10:	fstp   TBYTE PTR [ebx+0x1b]
+   0xfffffb13:	sbb    ebx,DWORD PTR [ebx]
+   0xfffffb15:	add    BYTE PTR [esi],bh
+   0xfffffb17:	arpl   WORD PTR [eax],di
+   0xfffffb19:	ins    BYTE PTR es:[edi],dx
+   0xfffffb1a:	ins    BYTE PTR es:[edi],dx
+   0xfffffb1b:	cmp    ah,cl
+   0xfffffb1d:	js     0xfffffb1f
+   0xfffffb1f:	add    BYTE PTR [eax],al
+   0xfffffb21:	add    BYTE PTR [esi+0x7e],bh
+   0xfffffb24:	jle    0xfffffb26
+   0xfffffb26:	sbb    BYTE PTR [esi+edi*2],bh
+   0xfffffb29:	sbb    BYTE PTR [esi+0x3c],bh
+   0xfffffb2c:	sbb    bh,bh
+   0xfffffb2e:	sbb    BYTE PTR [esi+edi*2],bh
+   0xfffffb31:	sbb    BYTE PTR [eax],bl
+   0xfffffb33:	sbb    BYTE PTR [eax],bl
+   0xfffffb35:	add    BYTE PTR [eax],bl
+   0xfffffb37:	sbb    BYTE PTR [eax],bl
+   0xfffffb39:	sbb    BYTE PTR [esi+0x3c],bh
+   0xfffffb3c:	sbb    BYTE PTR [eax],al
+   0xfffffb3e:	add    BYTE PTR [eax],bl
+   0xfffffb40:	or     al,0xfe
+   0xfffffb42:	or     al,0x18
+   0xfffffb44:	add    BYTE PTR [eax],al
+   0xfffffb46:	add    BYTE PTR [eax],dh
+   0xfffffb48:	pusha
+   0xfffffb49:	(bad)
+   0xfffffb4a:	pusha
+   0xfffffb4b:	xor    BYTE PTR [eax],al
+   0xfffffb4d:	add    BYTE PTR [eax],al
+   0xfffffb4f:	add    al,al
+   0xfffffb51:	rol    al,0xfe
+   0xfffffb54:	add    BYTE PTR [eax],al
+   0xfffffb56:	add    BYTE PTR [esi+eiz*2],ah
+   0xfffffb59:	jmp    DWORD PTR [esi+0x24]
+   0xfffffb5c:	add    BYTE PTR [eax],al
+   0xfffffb5e:	add    BYTE PTR [eax],bl
+   0xfffffb60:	cmp    al,0x7e
+   0xfffffb62:	(bad)
+   0xfffffb63:	inc    DWORD PTR [eax]
+   0xfffffb65:	add    BYTE PTR [eax],al
+   0xfffffb67:	(bad)
+   0xfffffb68:	(bad)
+   0xfffffb69:	jle    0xfffffba7
+   0xfffffb6b:	sbb    BYTE PTR [eax],al
+   0xfffffb6d:	add    BYTE PTR [eax],al
+   0xfffffb6f:	add    BYTE PTR [eax],al
+   0xfffffb71:	add    BYTE PTR [eax],al
+   0xfffffb73:	add    BYTE PTR [eax],al
+   0xfffffb75:	add    BYTE PTR [eax],dh
+   0xfffffb77:	js     0xfffffbf1
+   0xfffffb79:	xor    BYTE PTR [eax],dh
+   0xfffffb7b:	add    BYTE PTR [eax],dh
+   0xfffffb7d:	add    BYTE PTR [esp+ebp*2+0x6c],ch
+   0xfffffb81:	add    BYTE PTR [eax],al
+   0xfffffb83:	add    BYTE PTR [eax],al
+   0xfffffb85:	add    BYTE PTR [esp+ebp*2-0x2],ch
+   0xfffffb89:	ins    BYTE PTR es:[edi],dx
+   0xfffffb8a:	(bad)
+   0xfffffb8b:	ins    BYTE PTR es:[edi],dx
+   0xfffffb8c:	ins    BYTE PTR es:[edi],dx
+   0xfffffb8d:	add    BYTE PTR [eax],dh
+   0xfffffb8f:	jl     0xfffffb51
+   0xfffffb91:	js     0xfffffb9f
+   0xfffffb93:	clc
+   0xfffffb94:	xor    BYTE PTR [eax],al
+   0xfffffb96:	add    dh,al
+   0xfffffb98:	int3
+   0xfffffb99:	sbb    BYTE PTR [eax],dh
+   0xfffffb9b:	data16 mov BYTE PTR [eax],0x38
+   0xfffffb9f:	ins    BYTE PTR es:[edi],dx
+   0xfffffba0:	cmp    BYTE PTR [esi-0x24],dh
+   0xfffffba3:	int3
+   0xfffffba4:	jbe    0xfffffba6
+   0xfffffba6:	pusha
+   0xfffffba7:	pusha
+   0xfffffba8:	rol    BYTE PTR [eax],0x0
+   0xfffffbab:	add    BYTE PTR [eax],al
+   0xfffffbad:	add    BYTE PTR [eax],bl
+   0xfffffbaf:	xor    BYTE PTR [eax+0x60],ah
+   0xfffffbb2:	pusha
+   0xfffffbb3:	xor    BYTE PTR [eax],bl
+   0xfffffbb5:	add    BYTE PTR [eax+0x30],ah
+   0xfffffbb8:	sbb    BYTE PTR [eax],bl
+   0xfffffbba:	sbb    BYTE PTR [eax],dh
+   0xfffffbbc:	pusha
+   0xfffffbbd:	add    BYTE PTR [eax],al
+   0xfffffbbf:	data16 cmp al,0xff
+   0xfffffbc2:	cmp    al,0x66
+   0xfffffbc4:	add    BYTE PTR [eax],al
+   0xfffffbc6:	add    BYTE PTR [eax],dh
+   0xfffffbc8:	xor    ah,bh
+   0xfffffbca:	xor    BYTE PTR [eax],dh
+   0xfffffbcc:	add    BYTE PTR [eax],al
+   0xfffffbce:	add    BYTE PTR [eax],al
+   0xfffffbd0:	add    BYTE PTR [eax],al
+   0xfffffbd2:	add    BYTE PTR [eax],dh
+   0xfffffbd4:	xor    BYTE PTR [eax+0x0],ah
+   0xfffffbd7:	add    BYTE PTR [eax],al
+   0xfffffbd9:	cld
+   0xfffffbda:	add    BYTE PTR [eax],al
+   0xfffffbdc:	add    BYTE PTR [eax],al
+   0xfffffbde:	add    BYTE PTR [eax],al
+   0xfffffbe0:	add    BYTE PTR [eax],al
+   0xfffffbe2:	add    BYTE PTR [eax],dh
+   0xfffffbe4:	xor    BYTE PTR [eax],al
+   0xfffffbe6:	push   es
+   0xfffffbe7:	or     al,0x18
+   0xfffffbe9:	xor    BYTE PTR [eax-0x40],ah
+   0xfffffbec:	add    BYTE PTR [eax],0x7c
+   0xfffffbef:	(bad)
+   0xfffffbf0:	into
+   0xfffffbf1:	fdivp  st(6),st
+   0xfffffbf3:	out    0x7c,al
+   0xfffffbf5:	add    BYTE PTR [eax],dh
+   0xfffffbf7:	jo     0xfffffc29
+   0xfffffbf9:	xor    BYTE PTR [eax],dh
+   0xfffffbfb:	xor    ah,bh
+   0xfffffbfd:	add    BYTE PTR [eax-0x34],bh
+   0xfffffc00:	or     al,0x38
+   0xfffffc02:	pusha
+   0xfffffc03:	int3
+   0xfffffc04:	cld
+   0xfffffc05:	add    BYTE PTR [eax-0x34],bh
+   0xfffffc08:	or     al,0x38
+   0xfffffc0a:	or     al,0xcc
+   0xfffffc0c:	js     0xfffffc0e
+   0xfffffc0e:	sbb    al,0x3c
+   0xfffffc10:	ins    BYTE PTR es:[edi],dx
+   0xfffffc11:	int3
+   0xfffffc12:	dec    BYTE PTR [esi+ebx*1]
+   0xfffffc15:	add    ah,bh
+   0xfffffc17:	sar    al,0xc
+   0xfffffc1a:	or     al,0xcc
+   0xfffffc1c:	js     0xfffffc1e
+   0xfffffc1e:	cmp    BYTE PTR [eax-0x40],ah
+   0xfffffc21:	clc
+   0xfffffc22:	int3
+   0xfffffc23:	int3
+   0xfffffc24:	js     0xfffffc26
+   0xfffffc26:	cld
+   0xfffffc27:	int3
+   0xfffffc28:	or     al,0x18
+   0xfffffc2a:	xor    BYTE PTR [eax],dh
+   0xfffffc2c:	xor    BYTE PTR [eax],al
+   0xfffffc2e:	js     0xfffffbfc
+   0xfffffc30:	int3
+   0xfffffc31:	js     0xfffffbff
+   0xfffffc33:	int3
+   0xfffffc34:	js     0xfffffc36
+   0xfffffc36:	js     0xfffffc04
+   0xfffffc38:	int3
+   0xfffffc39:	jl     0xfffffc47
+   0xfffffc3b:	sbb    BYTE PTR [eax+0x0],dh
+   0xfffffc3e:	add    BYTE PTR [eax],dh
+   0xfffffc40:	xor    BYTE PTR [eax],al
+   0xfffffc42:	add    BYTE PTR [eax],dh
+   0xfffffc44:	xor    BYTE PTR [eax],al
+   0xfffffc46:	add    BYTE PTR [eax],dh
+   0xfffffc48:	xor    BYTE PTR [eax],al
+   0xfffffc4a:	add    BYTE PTR [eax],dh
+   0xfffffc4c:	xor    BYTE PTR [eax+0x18],ah
+   0xfffffc4f:	xor    BYTE PTR [eax-0x40],ah
+   0xfffffc52:	pusha
+   0xfffffc53:	xor    BYTE PTR [eax],bl
+   0xfffffc55:	add    BYTE PTR [eax],al
+   0xfffffc57:	add    ah,bh
+   0xfffffc59:	add    BYTE PTR [eax],al
+   0xfffffc5b:	cld
+   0xfffffc5c:	add    BYTE PTR [eax],al
+   0xfffffc5e:	pusha
+   0xfffffc5f:	xor    BYTE PTR [eax],bl
+   0xfffffc61:	or     al,0x18
+   0xfffffc63:	xor    BYTE PTR [eax+0x0],ah
+   0xfffffc66:	js     0xfffffc34
+   0xfffffc68:	or     al,0x18
+   0xfffffc6a:	xor    BYTE PTR [eax],al
+   0xfffffc6c:	xor    BYTE PTR [eax],al
+   0xfffffc6e:	jl     0xfffffc36
+   0xfffffc70:	(bad)
+   0xfffffc72:	faddp  st(0),st
+   0xfffffc74:	js     0xfffffc76
+   0xfffffc76:	xor    BYTE PTR [eax-0x34],bh
+   0xfffffc79:	int3
+   0xfffffc7a:	cld
+   0xfffffc7b:	int3
+   0xfffffc7c:	int3
+   0xfffffc7d:	add    ah,bh
+   0xfffffc7f:	data16 data16 jl 0xfffffce9
+   0xfffffc83:	data16 cld
+   0xfffffc85:	add    BYTE PTR [esi+eiz*2],bh
+   0xfffffc88:	rol    al,0xc0
+   0xfffffc8b:	data16 cmp al,0x0
+   0xfffffc8e:	clc
+   0xfffffc8f:	ins    BYTE PTR es:[edi],dx
+   0xfffffc90:	data16 data16 data16 ins BYTE PTR es:[edi],dx
+   0xfffffc94:	clc
+   0xfffffc95:	add    dh,bh
+   0xfffffc97:	bound  ebp,QWORD PTR [eax+0x78]
+   0xfffffc9a:	push   0xfe00fe62
+   0xfffffc9f:	bound  ebp,QWORD PTR [eax+0x78]
+   0xfffffca2:	push   0x3c00f060
+   0xfffffca7:	data16 rol al,0xce
+   0xfffffcab:	data16 ds add ah,cl
+   0xfffffcaf:	int3
+   0xfffffcb0:	int3
+   0xfffffcb1:	cld
+   0xfffffcb2:	int3
+   0xfffffcb3:	int3
+   0xfffffcb4:	int3
+   0xfffffcb5:	add    BYTE PTR [eax+0x30],bh
+   0xfffffcb8:	xor    BYTE PTR [eax],dh
+   0xfffffcba:	xor    BYTE PTR [eax],dh
+   0xfffffcbc:	js     0xfffffcbe
+   0xfffffcbe:	push   ds
+   0xfffffcbf:	or     al,0xc
+   0xfffffcc1:	or     al,0xcc
+   0xfffffcc3:	int3
+   0xfffffcc4:	js     0xfffffcc6
+   0xfffffcc6:	out    0x66,al
+   0xfffffcc8:	ins    BYTE PTR es:[edi],dx
+   0xfffffcc9:	js     0xfffffd37
+   0xfffffccb:	data16 out 0x0,al
+   0xfffffcce:	lock pusha
+   0xfffffcd0:	pusha
+   0xfffffcd1:	pusha
+   0xfffffcd2:	bound  esp,QWORD PTR [esi-0x2]
+   0xfffffcd5:	add    dh,al
+   0xfffffcd7:	out    dx,al
+   0xfffffcd8:	(bad)
+   0xfffffcd9:	(bad)
+   0xfffffcda:	(bad)
+   0xfffffcdb:	mov    dh,0x0
+   0xfffffcde:	(bad)
+   0xfffffcdf:	out    0xf6,al
+   0xfffffce1:	fmulp  st(6),st
+   0xfffffce3:	mov    dh,0x0
+   0xfffffce6:	cmp    BYTE PTR [esi+eax*8-0x3a],ch
+   0xfffffcea:	(bad)
+   0xfffffceb:	ins    BYTE PTR es:[edi],dx
+   0xfffffcec:	cmp    BYTE PTR [eax],al
+   0xfffffcee:	cld
+   0xfffffcef:	data16 data16 jl 0xfffffd53
+   0xfffffcf3:	pusha
+   0xfffffcf4:	lock add BYTE PTR [eax-0x34],bh
+   0xfffffcf8:	int3
+   0xfffffcf9:	int3
+   0xfffffcfa:	fdivr  QWORD PTR [eax+0x1c]
+   0xfffffcfd:	add    ah,bh
+   0xfffffcff:	data16 data16 jl 0xfffffd6f
+   0xfffffd03:	data16 out 0x0,al
+   0xfffffd06:	js     0xfffffcd4
+   0xfffffd08:	loopne 0xfffffd7a
+   0xfffffd0a:	sbb    al,0xcc
+   0xfffffd0c:	js     0xfffffd0e
+   0xfffffd0e:	cld
+   0xfffffd0f:	mov    ah,0x30
+   0xfffffd11:	xor    BYTE PTR [eax],dh
+   0xfffffd13:	xor    BYTE PTR [eax+0x0],bh
+   0xfffffd16:	int3
+   0xfffffd17:	int3
+   0xfffffd18:	int3
+   0xfffffd19:	int3
+   0xfffffd1a:	int3
+   0xfffffd1b:	int3
+   0xfffffd1c:	cld
+   0xfffffd1d:	add    ah,cl
+   0xfffffd1f:	int3
+   0xfffffd20:	int3
+   0xfffffd21:	int3
+   0xfffffd22:	int3
+   0xfffffd23:	js     0xfffffd55
+   0xfffffd25:	add    dh,al
+   0xfffffd27:	mov    dh,0xd6
+   0xfffffd2a:	(bad)
+   0xfffffd2b:	out    dx,al
+   0xfffffd2c:	mov    BYTE PTR [eax],0xc6
+   0xfffffd2f:	(bad)
+   0xfffffd30:	ins    BYTE PTR es:[edi],dx
+   0xfffffd31:	cmp    BYTE PTR [eax],bh
+   0xfffffd33:	ins    BYTE PTR es:[edi],dx
+   0xfffffd34:	mov    BYTE PTR [eax],0xcc
+   0xfffffd37:	int3
+   0xfffffd38:	int3
+   0xfffffd39:	js     0xfffffd6b
+   0xfffffd3b:	xor    BYTE PTR [eax+0x0],bh
+   0xfffffd3e:	inc    dh
+   0xfffffd40:	mov    WORD PTR [eax],ds
+   0xfffffd42:	xor    ah,BYTE PTR [esi-0x2]
+   0xfffffd45:	add    BYTE PTR [eax+0x60],bh
+   0xfffffd48:	pusha
+   0xfffffd49:	pusha
+   0xfffffd4a:	pusha
+   0xfffffd4b:	pusha
+   0xfffffd4c:	js     0xfffffd4e
+   0xfffffd4e:	shl    BYTE PTR [eax+0x30],0x18
+   0xfffffd52:	or     al,0x6
+   0xfffffd54:	add    al,BYTE PTR [eax]
+   0xfffffd56:	js     0xfffffd70
+   0xfffffd58:	sbb    BYTE PTR [eax],bl
+   0xfffffd5a:	sbb    BYTE PTR [eax],bl
+   0xfffffd5c:	js     0xfffffd5e
+   0xfffffd5e:	adc    BYTE PTR [eax],bh
+   0xfffffd60:	ins    BYTE PTR es:[edi],dx
+   0xfffffd61:	mov    BYTE PTR [eax],0x0
+   0xfffffd64:	add    BYTE PTR [eax],al
+   0xfffffd66:	add    BYTE PTR [eax],al
+   0xfffffd68:	add    BYTE PTR [eax],al
+   0xfffffd6a:	add    BYTE PTR [eax],al
+   0xfffffd6c:	add    bh,bh
+   0xfffffd6e:	xor    BYTE PTR [eax],dh
+   0xfffffd70:	sbb    BYTE PTR [eax],al
+   0xfffffd72:	add    BYTE PTR [eax],al
+   0xfffffd74:	add    BYTE PTR [eax],al
+   0xfffffd76:	add    BYTE PTR [eax],al
+   0xfffffd78:	js     0xfffffd86
+   0xfffffd7a:	jl     0xfffffd48
+   0xfffffd7c:	jbe    0xfffffd7e
+   0xfffffd7e:	loopne 0xfffffde0
+   0xfffffd80:	pusha
+   0xfffffd81:	jl     0xfffffde9
+   0xfffffd83:	data16 fadd QWORD PTR [eax]
+   0xfffffd86:	add    BYTE PTR [eax],al
+   0xfffffd88:	js     0xfffffd56
+   0xfffffd8a:	ror    ah,0x78
+   0xfffffd8d:	add    BYTE PTR [esp+ecx*1],bl
+   0xfffffd90:	or     al,0x7c
+   0xfffffd92:	int3
+   0xfffffd93:	int3
+   0xfffffd94:	jbe    0xfffffd96
+   0xfffffd96:	add    BYTE PTR [eax],al
+   0xfffffd98:	js     0xfffffd66
+   0xfffffd9a:	cld
+   0xfffffd9b:	sar    BYTE PTR [eax+0x0],0x38
+   0xfffffd9f:	ins    BYTE PTR es:[edi],dx
+   0xfffffda0:	pusha
+   0xfffffda1:	lock pusha
+   0xfffffda3:	pusha
+   0xfffffda4:	lock add BYTE PTR [eax],al
+   0xfffffda7:	add    BYTE PTR [esi-0x34],dh
+   0xfffffdaa:	int3
+   0xfffffdab:	jl     0xfffffdb9
+   0xfffffdad:	clc
+   0xfffffdae:	loopne 0xfffffe10
+   0xfffffdb0:	ins    BYTE PTR es:[edi],dx
+   0xfffffdb1:	jbe    0xfffffe19
+   0xfffffdb3:	data16 out 0x0,al
+   0xfffffdb6:	xor    BYTE PTR [eax],al
+   0xfffffdb8:	jo     0xfffffdea
+   0xfffffdba:	xor    BYTE PTR [eax],dh
+   0xfffffdbc:	js     0xfffffdbe
+   0xfffffdbe:	or     al,0x0
+   0xfffffdc0:	or     al,0xc
+   0xfffffdc2:	or     al,0xcc
+   0xfffffdc4:	int3
+   0xfffffdc5:	js     0xfffffda7
+   0xfffffdc7:	pusha
+   0xfffffdc8:	data16 ins BYTE PTR es:[edi],dx
+   0xfffffdca:	js     0xfffffe38
+   0xfffffdcc:	out    0x0,al
+   0xfffffdce:	jo     0xfffffe00
+   0xfffffdd0:	xor    BYTE PTR [eax],dh
+   0xfffffdd2:	xor    BYTE PTR [eax],dh
+   0xfffffdd4:	js     0xfffffdd6
+   0xfffffdd6:	add    BYTE PTR [eax],al
+   0xfffffdd8:	int3
+   0xfffffdd9:	(bad)
+   0xfffffdda:	(bad)
+   0xfffffddb:	(bad)
+   0xfffffddc:	mov    BYTE PTR [eax],0x0
+   0xfffffddf:	add    al,bh
+   0xfffffde1:	int3
+   0xfffffde2:	int3
+   0xfffffde3:	int3
+   0xfffffde4:	int3
+   0xfffffde5:	add    BYTE PTR [eax],al
+   0xfffffde7:	add    BYTE PTR [eax-0x34],bh
+   0xfffffdea:	int3
+   0xfffffdeb:	int3
+   0xfffffdec:	js     0xfffffdee
+   0xfffffdee:	add    BYTE PTR [eax],al
+   0xfffffdf0:	fsub   QWORD PTR [esi+0x66]
+   0xfffffdf3:	jl     0xfffffe55
+   0xfffffdf5:	lock add BYTE PTR [eax],al
+   0xfffffdf8:	jbe    0xfffffdc6
+   0xfffffdfa:	int3
+   0xfffffdfb:	jl     0xfffffe09
+   0xfffffdfd:	push   ds
+   0xfffffdfe:	add    BYTE PTR [eax],al
+   0xfffffe00:	fdiv   QWORD PTR [esi+0x66]
+   0xfffffe03:	pusha
+   0xfffffe04:	lock add BYTE PTR [eax],al
+   0xfffffe07:	add    BYTE PTR [eax+eax*8+0x78],bh
+   0xfffffe0b:	or     al,0xf8
+   0xfffffe0d:	add    BYTE PTR [eax],dl
+   0xfffffe0f:	xor    BYTE PTR [eax+esi*1+0x30],bh
+   0xfffffe13:	xor    al,0x18
+   0xfffffe15:	add    BYTE PTR [eax],al
+   0xfffffe17:	add    ah,cl
+   0xfffffe19:	int3
+   0xfffffe1a:	int3
+   0xfffffe1b:	int3
+   0xfffffe1c:	jbe    0xfffffe1e
+   0xfffffe1e:	add    BYTE PTR [eax],al
+   0xfffffe20:	int3
+   0xfffffe21:	int3
+   0xfffffe22:	int3
+   0xfffffe23:	js     0xfffffe55
+   0xfffffe25:	add    BYTE PTR [eax],al
+   0xfffffe27:	add    dh,al
+   0xfffffe29:	(bad)
+   0xfffffe2a:	(bad)
+   0xfffffe2b:	(bad)
+   0xfffffe2c:	ins    BYTE PTR es:[edi],dx
+   0xfffffe2d:	add    BYTE PTR [eax],al
+   0xfffffe2f:	add    dh,al
+   0xfffffe31:	ins    BYTE PTR es:[edi],dx
+   0xfffffe32:	cmp    BYTE PTR [esi+eax*8+0x0],ch
+   0xfffffe36:	add    BYTE PTR [eax],al
+   0xfffffe38:	int3
+   0xfffffe39:	int3
+   0xfffffe3a:	int3
+   0xfffffe3b:	jl     0xfffffe49
+   0xfffffe3d:	clc
+   0xfffffe3e:	add    BYTE PTR [eax],al
+   0xfffffe40:	cld
+   0xfffffe41:	cwde
+   0xfffffe42:	xor    BYTE PTR [esp+edi*8+0x0],ah
+   0xfffffe46:	sbb    al,0x30
+   0xfffffe48:	xor    al,ah
+   0xfffffe4a:	xor    BYTE PTR [eax],dh
+   0xfffffe4c:	sbb    al,0x0
+   0xfffffe4e:	sbb    BYTE PTR [eax],bl
+   0xfffffe50:	sbb    BYTE PTR [eax],al
+   0xfffffe52:	sbb    BYTE PTR [eax],bl
+   0xfffffe54:	sbb    BYTE PTR [eax],al
+   0xfffffe56:	loopne 0xfffffe88
+   0xfffffe58:	xor    BYTE PTR [eax+esi*1],bl
+   0xfffffe5b:	xor    al,ah
+   0xfffffe5d:	add    BYTE PTR [esi-0x24],dh
+   0xfffffe60:	add    BYTE PTR [eax],al
+   0xfffffe62:	add    BYTE PTR [eax],al
+   0xfffffe64:	add    BYTE PTR [eax],al
+   0xfffffe66:	add    BYTE PTR [eax],dl
+   0xfffffe68:	cmp    BYTE PTR [esi+eax*8-0x3a],ch
+   0xfffffe6c:	inc    BYTE PTR [eax]
+   0xfffffe6e:	cmp    ah,0xb1
+   0xfffffe71:	je     0x6866d23f
+   0xfffffe77:	adc    esp,esp
+   0xfffffe79:	add    BYTE PTR [eax],al
+   0xfffffe7b:	jmp    0x8ab0d3a6
+   0xfffffe80:	out    0x70,al
+   0xfffffe82:	mov    al,0x26
+   0xfffffe84:	out    0x71,al
+   0xfffffe86:	mov    al,0x8b
+   0xfffffe88:	out    0x70,al
+   0xfffffe8a:	in     al,0x71
+   0xfffffe8c:	and    ax,0x1
+   0xfffffe90:	or     ax,0x2
+   0xfffffe94:	out    0x71,al
+   0xfffffe96:	mov    al,0x8c
+   0xfffffe98:	out    0x70,al
+   0xfffffe9a:	in     al,0x71
+   0xfffffe9c:	mov    al,0x8d
+   0xfffffe9e:	out    0x70,al
+   0xfffffea0:	in     al,0x71
+   0xfffffea2:	retw
+   0xfffffea4:	nop
+   0xfffffea5:	pushw  0xc4e9
+   0xfffffea9:	add    BYTE PTR [eax],al
+   0xfffffeab:	jmp    0x5366d319
+   0xfffffeb0:	callw  0x73e0
+   0xfffffeb4:	(bad)
+   0xfffffeb5:	jmp    DWORD PTR [esi-0x77]
+   0xfffffeb8:	ret
+   0xfffffeb9:	mov    dx,WORD PTR cs:[esi]
+   0xfffffebd:	add    al,0x60
+   0xfffffebf:	imul   dx,dx,0x190
+   0xfffffec4:	add    BYTE PTR [eax],al
+   0xfffffec6:	lea    ax,[bp+si+0x423f]
+   0xfffffecc:	verr   WORD PTR [esi-0x47]
+   0xfffffed0:	inc    eax
+   0xfffffed1:	inc    edx
+   0xfffffed2:	verr   WORD PTR [esi+0x31]
+   0xfffffed6:	shl    BYTE PTR [esi-0x9],cl
+   0xfffffed9:	icebp
+   0xfffffeda:	add    bx,ax
+   0xfffffedd:	mov    ax,bx
+   0xfffffee0:	callw  0x7509
+   0xfffffee4:	(bad)
+   0xfffffee5:	jmp    DWORD PTR [esi-0x7b]
+   0xfffffee8:	shl    BYTE PTR [ebp+0x4],0xf3
+   0xfffffeec:	nop
+   0xfffffeed:	jmp    0xfffffedd
+   0xfffffeef:	pop    bx
+   0xfffffef1:	retw
+   0xfffffef3:	add    BYTE PTR [eax],al
+   0xfffffef5:	add    BYTE PTR [eax],al
+   0xfffffef7:	add    BYTE PTR [eax],al
+   0xfffffef9:	add    BYTE PTR [eax],al
+   0xfffffefb:	add    BYTE PTR [eax],al
+   0xfffffefd:	add    BYTE PTR [eax],al
+   0xfffffeff:	add    BYTE PTR [eax-0x1b8f1976],dh
+   0xffffff05:	jno    0xffffff6d
+   0xffffff07:	xor    edx,edx
+   0xffffff09:	test   al,al
+   0xffffff0b:	jns    0xffffff4e
+   0xffffff0d:	push   bx
+   0xffffff0f:	mov    ax,0xf
+   0xffffff13:	add    BYTE PTR [eax],al
+   0xffffff15:	callw  0x748f
+   0xffffff19:	(bad)
+   0xffffff1a:	jmp    DWORD PTR [esi-0x77]
+   0xffffff1d:	ret
+   0xffffff1e:	mov    al,0x8a
+   0xffffff20:	out    0x70,al
+   0xffffff22:	in     al,0x71
+   0xffffff24:	test   al,al
+   0xffffff26:	jns    0xffffff3e
+   0xffffff28:	mov    ax,bx
+   0xffffff2b:	callw  0x7509
+   0xffffff2f:	(bad)
+   0xffffff30:	jmp    DWORD PTR [esi-0x7b]
+   0xffffff33:	shl    BYTE PTR [ebp+0xd],0x66
+   0xffffff37:	call   0xffff85ee
+   0xffffff3c:	jmp    0xffffff1e
+   0xffffff3e:	xor    dx,dx
+   0xffffff41:	jmp    0xffffff47
+   0xffffff43:	or     dx,0xffff
+   0xffffff47:	mov    ax,dx
+   0xffffff4a:	pop    bx
+   0xffffff4c:	retw
+   0xffffff4e:	mov    ax,dx
+   0xffffff51:	retw
+   0xffffff53:	iret
+   0xffffff54:	pushw  0x7a1a
+   0xffffff58:	add    BYTE PTR [eax],al
+   0xffffff5a:	jmp    0x5666d3a6
+   0xffffff5f:	push   bx
+   0xffffff61:	sub    sp,0xc
+   0xffffff65:	mov    bx,ax
+   0xffffff68:	callw  0x6ca1
+   0xffffff6c:	(bad)
+   0xffffff6d:	jmp    DWORD PTR [esi-0x77]
+   0xffffff70:	(bad)
+   0xffffff71:	mov    dx,ax
+   0xffffff74:	shr    dx,0x10
+   0xffffff78:	movzx  dx,dl
+   0xffffff7c:	mov    ax,WORD PTR [bp+di+0x4]
+   0xffffff81:	callw  0xec60
+   0xffffff85:	(bad)
+   0xffffff86:	jmp    DWORD PTR [esi-0x7b]
+   0xffffff89:	shl    BYTE PTR [ebp+0x5a],0x67
+   0xffffff8d:	mov    ax,WORD PTR [ebx+0x4]
+   0xffffff91:	mov    dx,WORD PTR cs:[bx+si+0x14]
+   0xffffff98:	icebp
+   0xffffff99:	jmp    DWORD PTR [edi+0x66]
+   0xffffff9c:	lea    eax,[esi*4+0x0]
+   0xffffffa3:	or     ax,dx
+   0xffffffa6:	mov    BYTE PTR [si+0x24],al
+   0xffffffaa:	add    eax,0x2444c667
+   0xffffffaf:	push   es
+   0xffffffb0:	add    ah,BYTE PTR [edi+0x66]
+   0xffffffb3:	movzx  edx,WORD PTR [ebx+0xa]
+   0xffffffb7:	mov    BYTE PTR [si+0x24],dl
+   0xffffffbb:	pop    es
+   0xffffffbc:	mov    BYTE PTR [si+0x24],0x8
+   0xffffffc1:	ins    BYTE PTR es:[edi],dx
+   0xffffffc2:	mov    BYTE PTR [si+0x24],0x9
+   0xffffffc7:	mul    BYTE PTR [esi-0x3f]
+   0xffffffca:	loop   0xffffffce
+   0xffffffcc:	lea    ax,[si+0x24]
+   0xffffffd1:	add    eax,0x4896667
+   0xffffffd6:	and    al,0x66
+   0xffffffd8:	mov    ecx,0x1754d
+   0xffffffdd:	mov    ax,bx
+   0xffffffe0:	callw  0xa188
+   0xffffffe4:	(bad)
+   0xffffffe5:	jmp    DWORD PTR [esi-0x7d]
+   0xffffffe8:	les    ecx,FWORD PTR [esi+eiz*2]
+   0xffffffeb:	pop    ebx
+   0xffffffec:	pop    si
+   0xffffffee:	retw
+   0xfffffff0:	jmp    0x3630:0xf000e05b
+   0xfffffff7:	das
+   0xfffffff8:	xor    dh,BYTE PTR [ebx]
+   0xfffffffa:	das
+   0xfffffffb:	cmp    DWORD PTR [ecx],edi
+   0xfffffffd:	add    ah,bh
+   0xffffffff:	add    BYTE PTR [eax],al
