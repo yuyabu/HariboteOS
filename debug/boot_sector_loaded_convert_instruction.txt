@@ -1,0 +1,253 @@
+=> 0x7c00:	jmp    0x7c50
+   0x7c02:	nop
+   0x7c03:	dec    eax
+   0x7c04:	inc    ecx
+   0x7c05:	push   edx
+   0x7c06:	dec    ecx
+   0x7c07:	inc    edx
+   0x7c08:	dec    edi
+   0x7c09:	push   esp
+   0x7c0a:	inc    ebp
+   0x7c0b:	add    BYTE PTR [edx],al
+   0x7c0d:	add    DWORD PTR [ecx],eax
+   0x7c0f:	add    BYTE PTR [edx],al
+   0x7c11:	loopne 0x7c13
+   0x7c13:	inc    eax
+   0x7c14:	or     esi,eax
+   0x7c16:	or     DWORD PTR [eax],eax
+   0x7c18:	adc    al,BYTE PTR [eax]
+   0x7c1a:	add    al,BYTE PTR [eax]
+   0x7c1c:	add    BYTE PTR [eax],al
+   0x7c1e:	add    BYTE PTR [eax],al
+   0x7c20:	inc    eax
+   0x7c21:	or     eax,DWORD PTR [eax]
+   0x7c23:	add    BYTE PTR [eax],al
+   0x7c25:	add    BYTE PTR [ecx],ch
+   0x7c27:	(bad)
+   0x7c28:	(bad)
+   0x7c29:	(bad)
+   0x7c2a:	dec    DWORD PTR [eax+0x41]
+   0x7c2d:	push   edx
+   0x7c2e:	dec    ecx
+   0x7c2f:	inc    edx
+   0x7c30:	dec    edi
+   0x7c31:	push   esp
+   0x7c32:	inc    ebp
+   0x7c33:	dec    edi
+   0x7c34:	push   ebx
+   0x7c35:	and    BYTE PTR [esi+0x41],al
+   0x7c38:	push   esp
+   0x7c39:	xor    DWORD PTR [edx],esi
+   0x7c3b:	and    BYTE PTR [eax],ah
+   0x7c3d:	and    BYTE PTR [eax],al
+   0x7c3f:	add    BYTE PTR [eax],al
+   0x7c41:	add    BYTE PTR [eax],al
+   0x7c43:	add    BYTE PTR [eax],al
+   0x7c45:	add    BYTE PTR [eax],al
+   0x7c47:	add    BYTE PTR [eax],al
+   0x7c49:	add    BYTE PTR [eax],al
+   0x7c4b:	add    BYTE PTR [eax],al
+   0x7c4d:	add    BYTE PTR [eax],al
+   0x7c4f:	add    BYTE PTR [eax-0x2f720000],bh
+   0x7c55:	mov    esp,0xd88e7c00
+   0x7c5a:	mov    eax,0xc08e0820
+   0x7c5f:	mov    ch,0x0
+   0x7c61:	mov    dh,0x0
+   0x7c63:	mov    cl,0x2
+   0x7c65:	mov    ebx,0x33e80143
+   0x7c6a:	add    dh,al
+   0x7c6c:	push   es
+   0x7c6d:	lock wbinvd
+   0x7c70:	jmp    0xb8c202
+   0x7c75:	add    BYTE PTR [esi+0x7c90bec0],cl
+   0x7c7b:	mov    al,BYTE PTR [ebx+eax*4]
+   0x7c7e:	mov    BYTE PTR [ecx],0x3c
+   0x7c81:	add    BYTE PTR [ecx+ecx*1-0x4c],dh
+   0x7c85:	push   cs
+   0x7c86:	mov    ebx,0x10cd000f
+   0x7c8b:	jmp    0x7c7b
+   0x7c8d:	hlt
+   0x7c8e:	jmp    0x7c8d
+   0x7c90:	or     cl,BYTE PTR [edx]
+   0x7c92:	ins    BYTE PTR es:[edi],dx
+   0x7c93:	outs   dx,DWORD PTR ds:[esi]
+   0x7c94:	popa
+   0x7c95:	and    BYTE PTR fs:[ebp+0x72],ah
+   0x7c99:	jb     0x7d0a
+   0x7c9b:	jb     0x7ca7
+   0x7c9d:	add    BYTE PTR [eax+eax*8-0x7ffc1f3f],cl
+   0x7ca4:	in     al,0x7f
+   0x7ca6:	mov    al,0x80
+   0x7ca8:	sub    al,ah
+   0x7caa:	mov    ah,bl
+   0x7cac:	cmp    bh,0x0
+   0x7caf:	je     0x7cb3
+   0x7cb1:	mov    ah,0x12
+   0x7cb3:	cmp    al,ah
+   0x7cb5:	jbe    0x7cb9
+   0x7cb7:	mov    al,ah
+   0x7cb9:	mov    ah,0x13
+   0x7cbb:	sub    ah,cl
+   0x7cbd:	cmp    al,ah
+   0x7cbf:	jbe    0x7cc3
+   0x7cc1:	mov    al,ah
+   0x7cc3:	push   ebx
+   0x7cc4:	mov    esi,0x2b40000
+   0x7cc9:	mov    ebx,0xb20000
+   0x7cce:	push   es
+   0x7ccf:	push   edx
+   0x7cd0:	push   ecx
+   0x7cd1:	push   eax
+   0x7cd2:	int    0x13
+   0x7cd4:	jae    0x7cea
+   0x7cd6:	add    esi,0x1
+   0x7cd9:	cmp    esi,0x5
+   0x7cdc:	jae    0x7c73
+   0x7cde:	mov    ah,0x0
+   0x7ce0:	mov    dl,0x0
+   0x7ce2:	int    0x13
+   0x7ce4:	pop    eax
+   0x7ce5:	pop    ecx
+   0x7ce6:	pop    edx
+   0x7ce7:	pop    es
+   0x7ce8:	jmp    0x7cc7
+   0x7cea:	pop    eax
+   0x7ceb:	pop    ecx
+   0x7cec:	pop    edx
+   0x7ced:	pop    ebx
+   0x7cee:	shr    ebx,0x5
+   0x7cf1:	mov    ah,0x0
+   0x7cf3:	add    ebx,eax
+   0x7cf5:	shl    ebx,0x5
+   0x7cf8:	mov    es,ebx
+   0x7cfa:	pop    ebx
+   0x7cfb:	sub    ebx,eax
+   0x7cfd:	je     0x7d17
+   0x7cff:	add    cl,al
+   0x7d01:	cmp    cl,0x12
+   0x7d04:	jbe    0x7c9e
+   0x7d06:	mov    cl,0x1
+   0x7d08:	add    dh,0x1
+   0x7d0b:	cmp    dh,0x2
+   0x7d0e:	jb     0x7c9e
+   0x7d10:	mov    dh,0x0
+   0x7d12:	add    ch,0x1
+   0x7d15:	jmp    0x7c9e
+   0x7d17:	ret
+   0x7d18:	add    BYTE PTR [eax],al
+   0x7d1a:	add    BYTE PTR [eax],al
+   0x7d1c:	add    BYTE PTR [eax],al
+   0x7d1e:	add    BYTE PTR [eax],al
+   0x7d20:	add    BYTE PTR [eax],al
+   0x7d22:	add    BYTE PTR [eax],al
+   0x7d24:	add    BYTE PTR [eax],al
+   0x7d26:	add    BYTE PTR [eax],al
+   0x7d28:	add    BYTE PTR [eax],al
+   0x7d2a:	add    BYTE PTR [eax],al
+   0x7d2c:	add    BYTE PTR [eax],al
+   0x7d2e:	add    BYTE PTR [eax],al
+   0x7d30:	add    BYTE PTR [eax],al
+   0x7d32:	add    BYTE PTR [eax],al
+   0x7d34:	add    BYTE PTR [eax],al
+   0x7d36:	add    BYTE PTR [eax],al
+   0x7d38:	add    BYTE PTR [eax],al
+   0x7d3a:	add    BYTE PTR [eax],al
+   0x7d3c:	add    BYTE PTR [eax],al
+   0x7d3e:	add    BYTE PTR [eax],al
+   0x7d40:	add    BYTE PTR [eax],al
+   0x7d42:	add    BYTE PTR [eax],al
+   0x7d44:	add    BYTE PTR [eax],al
+   0x7d46:	add    BYTE PTR [eax],al
+   0x7d48:	add    BYTE PTR [eax],al
+   0x7d4a:	add    BYTE PTR [eax],al
+   0x7d4c:	add    BYTE PTR [eax],al
+   0x7d4e:	add    BYTE PTR [eax],al
+   0x7d50:	add    BYTE PTR [eax],al
+   0x7d52:	add    BYTE PTR [eax],al
+   0x7d54:	add    BYTE PTR [eax],al
+   0x7d56:	add    BYTE PTR [eax],al
+   0x7d58:	add    BYTE PTR [eax],al
+   0x7d5a:	add    BYTE PTR [eax],al
+   0x7d5c:	add    BYTE PTR [eax],al
+   0x7d5e:	add    BYTE PTR [eax],al
+   0x7d60:	add    BYTE PTR [eax],al
+   0x7d62:	add    BYTE PTR [eax],al
+   0x7d64:	add    BYTE PTR [eax],al
+   0x7d66:	add    BYTE PTR [eax],al
+   0x7d68:	add    BYTE PTR [eax],al
+   0x7d6a:	add    BYTE PTR [eax],al
+   0x7d6c:	add    BYTE PTR [eax],al
+   0x7d6e:	add    BYTE PTR [eax],al
+   0x7d70:	add    BYTE PTR [eax],al
+   0x7d72:	add    BYTE PTR [eax],al
+   0x7d74:	add    BYTE PTR [eax],al
+   0x7d76:	add    BYTE PTR [eax],al
+   0x7d78:	add    BYTE PTR [eax],al
+   0x7d7a:	add    BYTE PTR [eax],al
+   0x7d7c:	add    BYTE PTR [eax],al
+   0x7d7e:	add    BYTE PTR [eax],al
+   0x7d80:	add    BYTE PTR [eax],al
+   0x7d82:	add    BYTE PTR [eax],al
+   0x7d84:	add    BYTE PTR [eax],al
+   0x7d86:	add    BYTE PTR [eax],al
+   0x7d88:	add    BYTE PTR [eax],al
+   0x7d8a:	add    BYTE PTR [eax],al
+   0x7d8c:	add    BYTE PTR [eax],al
+   0x7d8e:	add    BYTE PTR [eax],al
+   0x7d90:	add    BYTE PTR [eax],al
+   0x7d92:	add    BYTE PTR [eax],al
+   0x7d94:	add    BYTE PTR [eax],al
+   0x7d96:	add    BYTE PTR [eax],al
+   0x7d98:	add    BYTE PTR [eax],al
+   0x7d9a:	add    BYTE PTR [eax],al
+   0x7d9c:	add    BYTE PTR [eax],al
+   0x7d9e:	add    BYTE PTR [eax],al
+   0x7da0:	add    BYTE PTR [eax],al
+   0x7da2:	add    BYTE PTR [eax],al
+   0x7da4:	add    BYTE PTR [eax],al
+   0x7da6:	add    BYTE PTR [eax],al
+   0x7da8:	add    BYTE PTR [eax],al
+   0x7daa:	add    BYTE PTR [eax],al
+   0x7dac:	add    BYTE PTR [eax],al
+   0x7dae:	add    BYTE PTR [eax],al
+   0x7db0:	add    BYTE PTR [eax],al
+   0x7db2:	add    BYTE PTR [eax],al
+   0x7db4:	add    BYTE PTR [eax],al
+   0x7db6:	add    BYTE PTR [eax],al
+   0x7db8:	add    BYTE PTR [eax],al
+   0x7dba:	add    BYTE PTR [eax],al
+   0x7dbc:	add    BYTE PTR [eax],al
+   0x7dbe:	add    BYTE PTR [eax],al
+   0x7dc0:	add    BYTE PTR [eax],al
+   0x7dc2:	add    BYTE PTR [eax],al
+   0x7dc4:	add    BYTE PTR [eax],al
+   0x7dc6:	add    BYTE PTR [eax],al
+   0x7dc8:	add    BYTE PTR [eax],al
+   0x7dca:	add    BYTE PTR [eax],al
+   0x7dcc:	add    BYTE PTR [eax],al
+   0x7dce:	add    BYTE PTR [eax],al
+   0x7dd0:	add    BYTE PTR [eax],al
+   0x7dd2:	add    BYTE PTR [eax],al
+   0x7dd4:	add    BYTE PTR [eax],al
+   0x7dd6:	add    BYTE PTR [eax],al
+   0x7dd8:	add    BYTE PTR [eax],al
+   0x7dda:	add    BYTE PTR [eax],al
+   0x7ddc:	add    BYTE PTR [eax],al
+   0x7dde:	add    BYTE PTR [eax],al
+   0x7de0:	add    BYTE PTR [eax],al
+   0x7de2:	add    BYTE PTR [eax],al
+   0x7de4:	add    BYTE PTR [eax],al
+   0x7de6:	add    BYTE PTR [eax],al
+   0x7de8:	add    BYTE PTR [eax],al
+   0x7dea:	add    BYTE PTR [eax],al
+   0x7dec:	add    BYTE PTR [eax],al
+   0x7dee:	add    BYTE PTR [eax],al
+   0x7df0:	add    BYTE PTR [eax],al
+   0x7df2:	add    BYTE PTR [eax],al
+   0x7df4:	add    BYTE PTR [eax],al
+   0x7df6:	add    BYTE PTR [eax],al
+   0x7df8:	add    BYTE PTR [eax],al
+   0x7dfa:	add    BYTE PTR [eax],al
+   0x7dfc:	add    BYTE PTR [eax],al
+   0x7dfe:	push   ebp
+   0x7dff:	stos   BYTE PTR es:[edi],al
